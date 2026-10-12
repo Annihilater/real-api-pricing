@@ -61,16 +61,16 @@ Price and allowance views now use a dedicated React ranking component, with 15 f
 
 Actual browser verification: desktop screenshot inspected; 390×844 screenshot inspected with Claude long names; 12 matched mobile rows measured 120px each with no horizontal overflow. Page 2 displays ranks 16–30. Luna search yields six rows and resets pagination. Clicking its first row opens the matching ChatGPT Pro 20x evidence. A nonexistent search shows the empty state and clear action. Build and 15 domain/data tests pass. These checks replace the former compressed ranking chart acceptance.
 
-Online follow-up: the updated Vercel preview now opens the actual app after browser authentication. The English price-ranking page was inspected via accessibility state and screenshot, showing the redesigned rows and 1–15 / 188 pagination. URL: https://real-api-pricing-kiemmndso-feizhululus-projects.vercel.app .
+Online follow-up: the updated Vercel preview now opens the actual app after browser authentication. The English price-ranking page was inspected via accessibility state and screenshot, showing the redesigned rows and 1–15 / 188 pagination. URL: https://real-api-pricing-kiemmndso-fei2411s-projects.vercel.app .
 
 ## Monthly-fee bands (2026-09-08)
 
-Shared presentation config: config/allowance-fee-bands.json. Bands are [0,30], (30,100), [100,300] USD/month, using adopted price_usd. No quota or adopted number changes. Full set remains available. Both frontend and Python verified 117 / 18 / 42 non-overlapping members, totaling all 177 current subscriptions. Boundary checks explicitly cover 0,30,30.01,99.99,100,300,300.01 and null. Web: 16 tests pass, build passes; actual desktop/monthly-fee buttons and 390×844 wrapping inspected; reload restored selected high band; monthly rank and table follow feeBand. Python rendered three bilingual SVG/PNG/text sets; publication index and bilingual README link them. Static title/legend/footer spacing corrected after image inspection. New preview https://real-api-pricing-jdhgq7oyu-feizhululus-projects.vercel.app (dpl_8mTPFPEMsuZBsKprEyJT3yr2qzwh) verified online with middle band selected and 18 results.
+Shared presentation config: config/allowance-fee-bands.json. Bands are [0,30], (30,100), [100,300] USD/month, using adopted price_usd. No quota or adopted number changes. Full set remains available. Both frontend and Python verified 117 / 18 / 42 non-overlapping members, totaling all 177 current subscriptions. Boundary checks explicitly cover 0,30,30.01,99.99,100,300,300.01 and null. Web: 16 tests pass, build passes; actual desktop/monthly-fee buttons and 390×844 wrapping inspected; reload restored selected high band; monthly rank and table follow feeBand. Python rendered three bilingual SVG/PNG/text sets; publication index and bilingual README link them. Static title/legend/footer spacing corrected after image inspection. New preview https://real-api-pricing-jdhgq7oyu-fei2411s-projects.vercel.app (dpl_8mTPFPEMsuZBsKprEyJT3yr2qzwh) verified online with middle band selected and 18 results.
 
 
 ## Presentation revisions (2026-09-08)
 
-User confirmed GLM ¥49/149/469=v2 and ¥118/538/1078=v3; v1 has no adopted rows. Display aliases were applied to web and Python rendering without changing adopted IDs or values. Charts regenerated. Fee bands now [0,30], (30,100], (100,300], verified as 117/36/24; 16 tests and build pass. Browser verified #F5F3ED background and provider placeholders. SVG art is pending Cursor; see src/assets/provider-logos/README.md. Latest preview https://real-api-pricing-dwdeng7ej-feizhululus-projects.vercel.app verified with the correct background and 55 logo slots.
+User confirmed GLM ¥49/149/469=v2 and ¥118/538/1078=v3; v1 has no adopted rows. Display aliases were applied to web and Python rendering without changing adopted IDs or values. Charts regenerated. Fee bands now [0,30], (30,100], (100,300], verified as 117/36/24; 16 tests and build pass. Browser verified #F5F3ED background and provider placeholders. SVG art is pending Cursor; see src/assets/provider-logos/README.md. Latest preview https://real-api-pricing-dwdeng7ej-fei2411s-projects.vercel.app verified with the correct background and 55 logo slots.
 
 ## Provider logo acceptance — 2026-09-09
 - Reviewed Cursor's SVG/PNG assets and channel + manufacturer BrandMarks integration.
@@ -79,7 +79,7 @@ User confirmed GLM ¥49/149/469=v2 and ¥118/538/1078=v3; v1 has no adopted rows
 - Inspected desktop and 390×844 mobile model panels; logos load without broken images.
 - Verified preview: 82 loaded logo images, none broken, body background rgb(245,243,237).
 - Existing vendor=other records (Inkling, Inkling Small, Nemotron 3 Ultra) retain fallback marks; no manufacturer guessed.
-- Preview: https://real-api-pricing-owzvswiml-feizhululus-projects.vercel.app
+- Preview: https://real-api-pricing-owzvswiml-fei2411s-projects.vercel.app
 
 ## Frontier point correction and AA update — 2026-09-09
 
@@ -88,13 +88,13 @@ User confirmed GLM ¥49/149/469=v2 and ¥118/538/1078=v3; v1 has no adopted rows
 - Downloaded actual SVG and PNG. The first PNG exposed a mutable-layout height bug; the corrected PNG was downloaded and visually checked, with centered logo markers, readable names and five separate key rows.
 - Kimi SVG and its assembly recipe now specify a black K and blue dot.
 - AA data checks: 149 current AA configurations match raw scores, variants, harnesses and estimate flags. 188 points, 204 configurations, 886 references; prices, quotas and both Arena boards remain unchanged. All 18 web tests and TypeScript/Vite build pass.
-- Final preview opened successfully and Code Arena logo buttons/cards were confirmed online: https://real-api-pricing-r3pgysog6-feizhululus-projects.vercel.app . A subsequent remote AA-page screenshot call timed out; AA v4.3 and estimate details had already been inspected locally. No production promotion.
+- Final preview opened successfully and Code Arena logo buttons/cards were confirmed online: https://real-api-pricing-r3pgysog6-fei2411s-projects.vercel.app . A subsequent remote AA-page screenshot call timed out; AA v4.3 and estimate details had already been inspected locally. No production promotion.
 
 ## Wheel zoom and contribution links — 2026-09-09
 
 Custom wheel zoom is restricted to the plot rectangle, including logo overlays, and keeps the cursor anchored on both reversed-log price and score axes. Real browser wheel testing confirmed: inside plot, ticks change with page scroll fixed at 360; outside plot, page scroll becomes 540 with ticks unchanged; Reset restores the original ticks and five logos. A regression test covers cursor anchoring, direction and reversible zoom; 19 tests and production build pass.
 
-Header adds bilingual GitHub Issue evidence template and Star link/count via public repository API. Mobile 390×844 and Chinese labels inspected. The current network's GitHub API rate limit caused the count to be omitted; the Star link remains usable. No issue or Star action was submitted. Grok implemented the header through Agent Bridge, Codex reviewed it and implemented/tested wheel zoom. Preview verified: https://real-api-pricing-agvi8wdpm-feizhululus-projects.vercel.app .
+Header adds bilingual GitHub Issue evidence template and Star link/count via public repository API. Mobile 390×844 and Chinese labels inspected. The current network's GitHub API rate limit caused the count to be omitted; the Star link remains usable. No issue or Star action was submitted. Grok implemented the header through Agent Bridge, Codex reviewed it and implemented/tested wheel zoom. Preview verified: https://real-api-pricing-agvi8wdpm-fei2411s-projects.vercel.app .
 
 ## Overlay, label and hover rework — 2026-09-09
 

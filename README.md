@@ -185,5 +185,5 @@ The largest plan families are Command Code GOAT (<!-- stat:plans_command_code_go
 ## Reproduce, contribute, credit
 
 - Rebuild everything: [BUILD.md](BUILD.md). Rules and conversions: [CONVENTIONS.md](CONVENTIONS.md). Why each value was chosen: [DECISIONS.md](DECISIONS.md).
-- Have a usage measurement of your own (tokens used vs. quota percentage)? [Open a data issue](https://github.com/FeiZhuLulu/real-api-pricing/issues/new?template=contribute-data.md).
+- Have a usage measurement of your own (tokens used vs. quota percentage)? [Open a data issue](https://github.com/Fei2411/real-api-pricing/issues/new?template=contribute-data.md).
 - Original software is [MIT](LICENSE). Data references include [Awesome Coding Plan](https://github.com/mahonzhan/awesome-coding-plan) (CC BY 4.0) and the Caijing article 《Token经济，中国账本》. Attribution, changes and third-party terms: [SOURCES.md](SOURCES.md). Redaction scope of this public edition: [PUBLICATION.md](PUBLICATION.md).
