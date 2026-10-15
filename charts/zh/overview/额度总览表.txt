@@ -294,22 +294,23 @@
 285   Command Code GOAT                   USD 10                  GPT 5.6 Sol                   0.921       0.10858  medium
 286   Command Code GOAT                   USD 10                  GLM 5                         0.851       0.11751  medium
 287   Kimi 会员 49 (v1) †                 CNY 49                  Kimi K2.7 Code                0.78        0.09267  medium
-288   Command Code GOAT                   USD 10                  GLM 5.3                       0.647       0.15456  medium
-289   Command Code GOAT                   USD 10                  GLM 5.1                       0.647       0.15456  medium
-290   Command Code GOAT                   USD 10                  Qwen3.8 Max                   0.62        0.16129  medium
-291   Command Code GOAT                   USD 10                  Qwen3.8 Max 0902              0.62        0.16129  medium
-292   Command Code GOAT                   USD 10                  Qwen3.6 Max Preview           0.618       0.16181  medium
-293   Command Code GOAT                   USD 10                  Qwen3.7 Max                   0.564       0.1773   medium
-294   Command Code GOAT                   USD 10                  MiMo V2.6 Pro UltraSpeed      0.534       0.18727  medium
-295   OpenCode Go                         USD 10                  GLM 5.3                       0.485       0.20619  medium
-296   OpenCode Go                         USD 10                  Qwen3.8 Max                   0.465       0.21505  medium
-297   Command Code GOAT                   USD 10                  Kimi K3                       0.454       0.22026  medium
-298   Command Code GOAT                   USD 10                  Kimi K2.7 Code HighSpeed      0.439       0.22779  medium
-299   Command Code GOAT                   USD 10                  Grok 4.7                      0.354       0.28249  medium
-300   Command Code GOAT                   USD 10                  Grok 4.5                      0.354       0.28249  medium
-301   Command Code GOAT                   USD 10                  Grok 4.6                      0.354       0.28249  medium
-302   OpenCode Go                         USD 10                  Kimi K3                       0.34        0.29412  medium
-303   Command Code GOAT                   USD 10                  Claude Sonnet 5.5             0.34        0.29412  medium
-304   Command Code GOAT                   USD 10                  GLM 5.2 Fast                  0.327       0.30581  medium
-305   OpenCode Go                         USD 10                  Grok 4.6                      0.265       0.37736  medium
-306   OpenCode Go                         USD 10                  Grok 4.7                      0.265       0.37736  medium
+288   OpenCode Go                         USD 10                  Gemini 4 Argon Contributor    0.761       0.13141  medium
+289   Command Code GOAT                   USD 10                  GLM 5.3                       0.647       0.15456  medium
+290   Command Code GOAT                   USD 10                  GLM 5.1                       0.647       0.15456  medium
+291   Command Code GOAT                   USD 10                  Qwen3.8 Max                   0.62        0.16129  medium
+292   Command Code GOAT                   USD 10                  Qwen3.8 Max 0902              0.62        0.16129  medium
+293   Command Code GOAT                   USD 10                  Qwen3.6 Max Preview           0.618       0.16181  medium
+294   Command Code GOAT                   USD 10                  Qwen3.7 Max                   0.564       0.1773   medium
+295   Command Code GOAT                   USD 10                  MiMo V2.6 Pro UltraSpeed      0.534       0.18727  medium
+296   OpenCode Go                         USD 10                  GLM 5.3                       0.485       0.20619  medium
+297   OpenCode Go                         USD 10                  Qwen3.8 Max                   0.465       0.21505  medium
+298   Command Code GOAT                   USD 10                  Kimi K3                       0.454       0.22026  medium
+299   Command Code GOAT                   USD 10                  Kimi K2.7 Code HighSpeed      0.439       0.22779  medium
+300   Command Code GOAT                   USD 10                  Grok 4.7                      0.354       0.28249  medium
+301   Command Code GOAT                   USD 10                  Grok 4.5                      0.354       0.28249  medium
+302   Command Code GOAT                   USD 10                  Grok 4.6                      0.354       0.28249  medium
+303   OpenCode Go                         USD 10                  Kimi K3                       0.34        0.29412  medium
+304   Command Code GOAT                   USD 10                  Claude Sonnet 5.5             0.34        0.29412  medium
+305   Command Code GOAT                   USD 10                  GLM 5.2 Fast                  0.327       0.30581  medium
+306   OpenCode Go                         USD 10                  Grok 4.6                      0.265       0.37736  medium
+307   OpenCode Go                         USD 10                  Grok 4.7                      0.265       0.37736  medium

@@ -595,6 +595,10 @@
       "en": "Added 1.487B: min(shared monthly pool $60, model Usage $60) ÷ project standard-workload weighted price; single official tier. The official request counts serve only as a cross-check and are no longer the primary allowance figure; allowances of different models in the same plan are not additive"
     },
     {
+      "zh": "新增0.761亿：min(共享月池$60, 模型Usage $30) ÷ 统一标准负载加权价；new official row; Go monthly $30; 2x limited-time $60 with no end date excluded per temp-promo policy; $4/$20/cached $0.20; Not ZDR; opencode-go-gemini4-argon-round1-2026-10-15.json。官方请求数仅作交叉检查，不再作为额度主值；同套餐各模型额度不可相加",
+      "en": "Added 76.1M: min(shared monthly pool $60, model Usage $30) / unified standard-workload weighted price; new official row; Go monthly $30; 2x limited-time $60 with no end date excluded per temp-promo policy; $4 input / $20 output / cached read $0.20; Not ZDR; opencode-go-gemini4-argon-round1-2026-10-15.json. The official request counts serve only as a cross-check and are no longer the primary allowance figure; allowances of different models in the same plan are not additive"
+    },
+    {
       "zh": "新增0.921亿：min(共享月池$70, 模型allowance $70) ÷ 统一标准负载加权价；官网三段价。忽略 processing fee；同套餐各模型额度不可相加；无面板 token+% 截图，按官方绝对credits+价表",
       "en": "Added 92.1M: min(shared monthly pool $70, model allowance $70) ÷ project standard-workload weighted price; official three-part pricing. Processing fee ignored; allowances of different models in the same plan are not additive; no usage-panel token+% screenshot — computed from official absolute credits and the price list"
     },
