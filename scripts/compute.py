@@ -81,13 +81,14 @@ DISPLAY = {
     "qwen3.8-27b": "Qwen3.8 27B", "qwen3.8-max-0902": "Qwen3.8 Max 0902",
     "step-3.5-flash": "Step 3.5 Flash", "step-3.7-flash": "Step 3.7 Flash", "step-5-preview": "Step 5 Preview", "jev": "Jev",
     "hy3": "Hy3", "hy4-preview": "Hy4 Preview", "omen-alpha": "Omen Alpha", "composer-2.5": "Composer 2.5",
+    "ling-3.1-flash": "Ling 3.1 Flash",
     "swe-2": "SWE-2",
 }
 VENDOR = {
     "gpt": "OpenAI", "claude": "Anthropic", "grok": "SpaceXAI", "kimi": "Kimi", "glm": "Zhipu", "minimax": "MiniMax",
     "qwen": "Alibaba", "deepseek": "DeepSeek", "gemini": "Google", "mimo": "Xiaomi", "hy": "Tencent", "composer": "Cursor",
     "longcat": "Meituan", "muse": "Muse", "omen": "OpenCode", "step": "StepFun", "swe": "Cognition",
-    "mistral": "Mistral",
+    "mistral": "Mistral", "ling": "inclusionAI",
 }
 
 

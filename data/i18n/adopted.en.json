@@ -811,6 +811,10 @@
       "en": "Added 469.5M: min(shared monthly pool $70, model allowance $20) ÷ project standard-workload weighted price; official three-part price; Older models all $20; goat-opencode-catalogs-round3-2026-09-30.json. Processing fee ignored; allowances of different models in the same plan are not additive; no usage-panel token+% screenshot — computed from official absolute credits and the price list"
     },
     {
+      "zh": "新增2.849亿：min(共享月池$70, 模型allowance $20) ÷ 统一标准负载加权价；new official row; per-model credits $20; scheduled $100 from 2026-10-15T12:30Z (no end date, not live at collection) kept in research only; goat-ling31-flash-round1-2026-10-15.json。忽略 processing fee；同套餐各模型额度不可相加；无面板 token+% 截图，按官方绝对credits+价表",
+      "en": "Added 284.9M: min(shared monthly pool $70, model allowance $20) ÷ project standard-workload weighted price; new official row; per-model credits $20; scheduled $100 from 2026-10-15T12:30Z (no end date, not live at collection) kept in research only; goat-ling31-flash-round1-2026-10-15.json. Processing fee ignored; allowances of different models in the same plan are not additive; no usage-panel token+% screenshot — computed from official absolute credits and the price list"
+    },
+    {
       "zh": "https://ollama.com/pricing 官方 usage credits 与三段价；https://ollama.com/blog/transparent-pricing；code-subscriptions-round1-2026-09-06.json；ollama-deepseek-v41-round1-2026-09-11.json",
       "en": "https://ollama.com/pricing official usage credits and three-part pricing; https://ollama.com/blog/transparent-pricing; code-subscriptions-round1-2026-09-06.json; ollama-deepseek-v41-round1-2026-09-11.json"
     },

@@ -834,6 +834,7 @@ COMMAND_CODE_GOAT_MODELS = (
     ("qwen3.6-max-preview", 20, 0.26, 1.3, 7.8, "official three-part price; Older models all $20; goat-opencode-catalogs-round3-2026-09-30.json"),
     ("minimax-m2.7", 20, 0.06, 0.3, 1.2, "official three-part price; Older models all $20; goat-opencode-catalogs-round3-2026-09-30.json"),
     ("minimax-m2.5", 20, 0.03, 0.3, 1.2, "official three-part price; Older models all $20; goat-opencode-catalogs-round3-2026-09-30.json"),
+    ("ling-3.1-flash", 20, 0.06, 0.3, 0.9, "new official row; per-model credits $20; scheduled $100 from 2026-10-15T12:30Z (no end date, not live at collection) kept in research only; goat-ling31-flash-round1-2026-10-15.json"),
 )
 
 
