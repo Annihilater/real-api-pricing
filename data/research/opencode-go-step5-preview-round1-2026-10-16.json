@@ -51,9 +51,10 @@
     "impact": "Creates the first adopted opencode_go row for step-5-preview at monthlyYi 1.107."
   },
   "officialRequestEstimates": {
-    "note": "Shown next to the 4x row on the official page; used only as cross-check evidence, never as the allowance main value.",
-    "per5h": 430,
-    "perWeek": 1720,
-    "perMonth": 1070
+    "note": "Official 'Estimated requests' table for the Go plan (https://opencode.ai/docs/go/, re-checked 2026-10-16); used only as cross-check evidence, never as the allowance main value. The page shows the $15 tier struck through and the 4x tier in bold.",
+    "steadyState15Usd": {"per5h": 430, "perWeek": 1070, "perMonth": 2130},
+    "limitedTime4x60Usd": {"per5h": 1720, "perWeek": 4280, "perMonth": 8520},
+    "crossCheck": "Official per-request workload for Step 5 Preview = 1,000 input + 55,000 cached + 200 output → $0.001 + $0.0055 + $0.00054 = $0.00704; 2,130 × $0.00704 = $15.0 (matches the $15 Usage). 5h ≈ 20% and week ≈ 50% of the monthly figure, matching the page's per-model 5h/weekly/monthly = 20%/50%/100% rule.",
+    "correction": "The first draft of this file recorded per5h 430 / perWeek 1720 / perMonth 1070, mixing the two tiers; corrected before merge."
   }
 }
