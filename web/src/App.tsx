@@ -90,7 +90,7 @@ import {
   mappingNoteLabel,
 } from "./domain";
 
-const REPO = "https://github.com/FeiZhuLulu/real-api-pricing";
+const REPO = "https://github.com/Fei2411/real-api-pricing";
 const boardLabels: Record<string, string> = {
   arena_code: "Code Arena",
   arena_agent_mode: "Agent Arena",

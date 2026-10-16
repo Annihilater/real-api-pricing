@@ -1,7 +1,7 @@
 import { Component, type ErrorInfo, type ReactNode } from "react";
 import { ChartScatter } from "@phosphor-icons/react";
 
-const REPO = "https://github.com/FeiZhuLulu/real-api-pricing";
+const REPO = "https://github.com/Fei2411/real-api-pricing";
 
 function isChinese(): boolean {
   try {
