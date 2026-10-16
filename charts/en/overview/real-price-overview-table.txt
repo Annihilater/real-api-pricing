@@ -294,35 +294,35 @@ No.  Plan                                   Monthly fee             Served model
 285  Claude Max 5x (9/14+)                  USD 100                 Claude Fable 5.1              0.8639              0.11575   low
 286  Command Code GOAT                      USD 10                  GLM 5                         0.0851              0.11751   medium
 287  ChatGPT Plus                           USD 20                  GPT-6 Astra                   0.159               0.12579   high
-288  OpenCode Go                            USD 10                  Gemini 4 Argon Contributor    0.0761              0.13141   medium
-289  Ollama Pro                             USD 20                  Kimi K3                       0.1361              0.14695   medium
-290  Ollama Max                             USD 100                 Kimi K3                       0.6803              0.14699   medium
-291  Alibaba Cloud CN Coding Plan Pro       CNY 200                 Qwen3.7 Plus                  0.198               0.14901   medium
-292  Command Code GOAT                      USD 10                  GLM 5.3                       0.0647              0.15456   medium
-293  Command Code GOAT                      USD 10                  GLM 5.1                       0.0647              0.15456   medium
-294  Command Code GOAT                      USD 10                  Qwen3.8 Max                   0.062               0.16129   medium
-295  Command Code GOAT                      USD 10                  Qwen3.8 Max 0902              0.062               0.16129   medium
-296  Command Code GOAT                      USD 10                  Qwen3.6 Max Preview           0.0618              0.16181   medium
-297  Claude Max 20x (9/14+)                 USD 200                 Claude Fable 5                1.2077              0.1656    low
-298  Command Code GOAT                      USD 10                  Qwen3.7 Max                   0.0564              0.1773    medium
-299  Devin Max                              USD 200                 GPT-6 Astra                   1.115               0.17937   medium
-300  MiMo V2.6 Pro UltraSpeed API           Pay-as-you-go           MiMo V2.6 Pro UltraSpeed      -                   0.18717   high
-301  Command Code GOAT                      USD 10                  MiMo V2.6 Pro UltraSpeed      0.0534              0.18727   medium
-302  Droid Max                              USD 200                 Claude Fable 5.1              1.0104              0.19794   medium
-303  Droid Max                              USD 200                 Claude Fable 5                1.0104              0.19794   medium
-304  Droid Max                              USD 200                 GPT-6 Astra                   1.0104              0.19794   medium
-305  OpenCode Go                            USD 10                  GLM 5.3                       0.0485              0.20619   medium
-306  Claude Sonnet 5.5 API                  Pay-as-you-go           Claude Sonnet 5.5             -                   0.2095    high
-307  OpenCode Go                            USD 10                  Qwen3.8 Max                   0.0465              0.21505   medium
-308  Command Code GOAT                      USD 10                  Kimi K3                       0.0454              0.22026   medium
-309  Cursor Ultra (Other Models)            USD 200                 Claude Opus 5.5               0.896               0.22321   medium
-310  Command Code GOAT                      USD 10                  Kimi K2.7 Code HighSpeed      0.0439              0.22779   medium
-311  Alibaba Cloud Coding Plan Pro          USD 50                  Qwen3.7 Plus                  0.198               0.25253   low
-312  Command Code GOAT                      USD 10                  Grok 4.7                      0.0354              0.28249   medium
-313  Command Code GOAT                      USD 10                  Grok 4.5                      0.0354              0.28249   medium
-314  Command Code GOAT                      USD 10                  Grok 4.6                      0.0354              0.28249   medium
-315  OpenCode Go                            USD 10                  Kimi K3                       0.034               0.29412   medium
-316  Command Code GOAT                      USD 10                  Claude Sonnet 5.5             0.034               0.29412   medium
+288  Ollama Pro                             USD 20                  Kimi K3                       0.1361              0.14695   medium
+289  Ollama Max                             USD 100                 Kimi K3                       0.6803              0.14699   medium
+290  Alibaba Cloud CN Coding Plan Pro       CNY 200                 Qwen3.7 Plus                  0.198               0.14901   medium
+291  Command Code GOAT                      USD 10                  GLM 5.3                       0.0647              0.15456   medium
+292  Command Code GOAT                      USD 10                  GLM 5.1                       0.0647              0.15456   medium
+293  Command Code GOAT                      USD 10                  Qwen3.8 Max                   0.062               0.16129   medium
+294  Command Code GOAT                      USD 10                  Qwen3.8 Max 0902              0.062               0.16129   medium
+295  Command Code GOAT                      USD 10                  Qwen3.6 Max Preview           0.0618              0.16181   medium
+296  Claude Max 20x (9/14+)                 USD 200                 Claude Fable 5                1.2077              0.1656    low
+297  Command Code GOAT                      USD 10                  Qwen3.7 Max                   0.0564              0.1773    medium
+298  Devin Max                              USD 200                 GPT-6 Astra                   1.115               0.17937   medium
+299  MiMo V2.6 Pro UltraSpeed API           Pay-as-you-go           MiMo V2.6 Pro UltraSpeed      -                   0.18717   high
+300  Command Code GOAT                      USD 10                  MiMo V2.6 Pro UltraSpeed      0.0534              0.18727   medium
+301  Droid Max                              USD 200                 Claude Fable 5.1              1.0104              0.19794   medium
+302  Droid Max                              USD 200                 Claude Fable 5                1.0104              0.19794   medium
+303  Droid Max                              USD 200                 GPT-6 Astra                   1.0104              0.19794   medium
+304  OpenCode Go                            USD 10                  GLM 5.3                       0.0485              0.20619   medium
+305  Claude Sonnet 5.5 API                  Pay-as-you-go           Claude Sonnet 5.5             -                   0.2095    high
+306  OpenCode Go                            USD 10                  Qwen3.8 Max                   0.0465              0.21505   medium
+307  Command Code GOAT                      USD 10                  Kimi K3                       0.0454              0.22026   medium
+308  Cursor Ultra (Other Models)            USD 200                 Claude Opus 5.5               0.896               0.22321   medium
+309  Command Code GOAT                      USD 10                  Kimi K2.7 Code HighSpeed      0.0439              0.22779   medium
+310  Alibaba Cloud Coding Plan Pro          USD 50                  Qwen3.7 Plus                  0.198               0.25253   low
+311  Command Code GOAT                      USD 10                  Grok 4.7                      0.0354              0.28249   medium
+312  Command Code GOAT                      USD 10                  Grok 4.5                      0.0354              0.28249   medium
+313  Command Code GOAT                      USD 10                  Grok 4.6                      0.0354              0.28249   medium
+314  OpenCode Go                            USD 10                  Kimi K3                       0.034               0.29412   medium
+315  Command Code GOAT                      USD 10                  Claude Sonnet 5.5             0.034               0.29412   medium
+316  Google AI Pro                          USD 19.99               Gemini 4 Argon                0.066               0.30288   low
 317  GPT-5.6 Terra API                      Pay-as-you-go           GPT 5.6 Terra                 -                   0.304     high
 318  Command Code GOAT                      USD 10                  GLM 5.2 Fast                  0.0327              0.30581   medium
 319  Claude Sonnet 5 API                    Pay-as-you-go           Claude Sonnet 5               -                   0.3065    high

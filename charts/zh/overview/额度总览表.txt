@@ -294,7 +294,7 @@
 285   Command Code GOAT                   USD 10                  GPT 5.6 Sol                   0.921       0.10858  medium
 286   Command Code GOAT                   USD 10                  GLM 5                         0.851       0.11751  medium
 287   Kimi 会员 49 (v1) †                 CNY 49                  Kimi K2.7 Code                0.78        0.09267  medium
-288   OpenCode Go                         USD 10                  Gemini 4 Argon Contributor    0.761       0.13141  medium
+288   Google AI Pro                       USD 19.99               Gemini 4 Argon                0.66        0.30288  low
 289   Command Code GOAT                   USD 10                  GLM 5.3                       0.647       0.15456  medium
 290   Command Code GOAT                   USD 10                  GLM 5.1                       0.647       0.15456  medium
 291   Command Code GOAT                   USD 10                  Qwen3.8 Max                   0.62        0.16129  medium
