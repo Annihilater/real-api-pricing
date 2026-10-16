@@ -121,7 +121,7 @@ Cloudflare Workers Static Assets serves `web/dist` using the root `wrangler.json
 
 Workers Builds settings:
 
-- Git repository: `FeiZhuLulu/real-api-pricing`; production branch: `main`.
+- Git repository: `Fei2411/real-api-pricing`; production branch: `main`.
 - Root directory: repository root (`/`).
 - Build command: `npm ci && npm --prefix web ci && npm --prefix web run build`.
 - Deploy command: `npx wrangler deploy` (Wrangler is pinned in the root lockfile).
