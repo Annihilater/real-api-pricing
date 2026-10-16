@@ -3,6 +3,11 @@
 本地 `AGENTS.md`（不入库）只放 Agent 工作流程；口径与规则见 [`CONVENTIONS.md`](CONVENTIONS.md)；本文件记录每条采用值的取舍（旧值 → 新值 → 依据 → 未采来源）。
 最权威的表述仍在 `scripts/build_adopted.py` 的 `decision_note` 和 `data/research/` 证据文件里；本文件是按时间的索引摘要。改数只能改 `build_adopted.py`，改完在这里同步记一笔。
 
+## 2026-10-16 · Command Code GOAT × Ling 3.1 Flash 首个采用点
+
+- **采用**：新增 `command_code_goat × ling-3.1-flash` = **9.972 亿/月 medium**（官方表）。三段价 cached/input/output = $0.06/$0.30/$0.90，标准档混合价 $0.0702/MTok。2026-10-15 首次抓取时每模型 credits 为 $20（对应 2.849 亿），页面另有 2026-10-15T12:30Z 起 $100 的预定步进、当时未生效，故先按 $20；2026-10-16 复核 credits 表显示 $100、无 was/through/creditDeal 标记，RSC `budgetUsd=100` 且无回落步，按「无截止标记＝常设档」先例（同 DeepSeek V4.1 Flash $15→$60）采 $100；有效额度 min(共享月池 $70, $100) = $70 ÷ $0.0702 = 9.972 亿。新增厂商 inclusionAI。Ling 3.1 Flash Free 变体不收录。
+- 证据：`data/research/goat-ling31-flash-round1-2026-10-15.json`、`data/research/goat-ling31-flash-round2-2026-10-16.json`。
+
 ## 2026-10-15 · OpenCode Go × Gemini 4 Argon Contributor 首个采用点
 
 - **采用**：新增 `opencode_go × gemini-4-argon-contributor` = **0.761 亿/月 medium**（官方表）。官网每模型月度 Usage $30，三段价 cached/input/output = $0.20/$4/$20，标准档混合价 $0.394/MTok；min(共享月池 $60, $30) = $30 ÷ $0.394 = 0.761 亿。页面「2x · Limited time」$60 无截止日期，按临时促销规则不采（采用则约 1.522 亿）。Not ZDR，提示词可能用于训练。与 Google AI Pro 订阅内的 `gemini-4-argon`（引入价 $0.10/$2/$10）是不同 slug、不同渠道。
