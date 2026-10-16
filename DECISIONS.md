@@ -3,6 +3,12 @@
 本地 `AGENTS.md`（不入库）只放 Agent 工作流程；口径与规则见 [`CONVENTIONS.md`](CONVENTIONS.md)；本文件记录每条采用值的取舍（旧值 → 新值 → 依据 → 未采来源）。
 最权威的表述仍在 `scripts/build_adopted.py` 的 `decision_note` 和 `data/research/` 证据文件里；本文件是按时间的索引摘要。改数只能改 `build_adopted.py`，改完在这里同步记一笔。
 
+## 2026-10-16 · Google AI Pro × Gemini 4 Argon 首个采用点
+
+- **背景**：X @leo114119 推文截图（维护者供图）：第三方网关面板显示 Gemini 4 Argon 7天额度已用 15.1%，网关统计 23 次调用（输入 109K／输出 75.1K 含推理 28K／缓存读 955K，命中率 90%），帖主反推周限「约 $10，少的可怜」。同日官方论坛答复确认 Argon（Gemini 4 Argon Preview）在 AI Pro 下是独立的 weekly-only 池（无 5 小时条），不与 Gemini 3.8 Flash 等合池。
+- **采用**：新增 `google_ai_pro_us × gemini-4-argon` = **0.66 亿/月 low**。面板上其余各池均 0%，故 23 次调用的用量归 Argon（归因本身为推断，置信度因此定 low）。段 worth $1.0645（cache 0.955M×$0.10＋入 0.109M×$2＋出 0.0751M×$10，引入价至 2026-11-30，其后 $0.2/$4/$20 需复核；推理计入输出与面板口径一致）÷15.1pp＝$0.0705/pp，周 worth $7.05×4周 ÷ 低缓存档混合价 $0.425/MTok。帖主「约 $10」为取整上界；若推理 28K 在输出外另计则周 $8.90（0.84亿）不采。raw 口径 0.30亿、标准档口径 1.43亿留作对照不采。同套餐 Gemini 合池周 worth $123.42，Argon 约为其 1/17，与「少的可怜」一致。
+- 证据：`data/research/gemini-argon-round1-2026-10-16.json`。
+
 ## 2026-10-08 · Claude Haiku 5.5 发布 & Sonnet 5.5 缓存读降价
 
 - **背景**：2026-10-08 Anthropic 发布 Claude Haiku 5.5（官方称迄今最便宜最快的迷你模型，平均比 Haiku 4.5 便宜约 75%），同日 Sonnet 5.5 缓存读价 $0.20→$0.10（改为 base input×0.05，与 Opus 5.5 同口径）。两项价格均已在 platform.claude.com 官方价表复核。维护者供图：X @1kartikkabadi1 推算图把 Pro 月池按各模型混合价拆开，其锚点与库内采用值精确一致（Pro × Opus 5.5 = 30.54 亿，池 worth $1,279.46≈图 $1,280），方法即仓库自身口径。
