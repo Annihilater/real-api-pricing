@@ -19,7 +19,7 @@ import {
   safeHttpUrl,
   type CustomProvider,
 } from "./customProviders";
-import PricingPrompt from "./PricingPrompt";
+import PricingPrompt from "./PricingPromptPanel";
 import { GlassCombobox, GlassSelect, type GlassGroup } from "./GlassSelect";
 
 const CURRENCY_GROUPS: GlassGroup[] = [
