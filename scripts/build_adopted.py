@@ -705,6 +705,7 @@ OPENCODE_GO_MODELS = (
     ("deepseek-v4-flash-vision-exp", 15, 0.003, 0.15, 0.60, "back in official catalog, Usage $15 (restored after the 9/10 removal); Off-Peak; Peak=2x kept in research variants; goat-opencode-catalogs-round3-2026-09-30.json"),
     ("hy4-preview", 30, 0.042, 0.834, 2.501, "官网单档"),
     ("hy3", 60, 0.035, 0.14, 0.58, "官网单档"),
+    ("step-5-preview", 15, 0.10, 1.0, 2.7, "new official paid row (was Free unlimited limited-time on 2026-10-15); Go monthly $15; 4x limited-time $60 with no end date excluded per temp-promo policy; $1/$2.70/cached $0.10; opencode-go-step5-preview-round1-2026-10-16.json"),
 )
 
 OPENCODE_GO_OLD_YI = {
