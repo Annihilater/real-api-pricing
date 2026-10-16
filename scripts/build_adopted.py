@@ -834,7 +834,7 @@ COMMAND_CODE_GOAT_MODELS = (
     ("qwen3.6-max-preview", 20, 0.26, 1.3, 7.8, "official three-part price; Older models all $20; goat-opencode-catalogs-round3-2026-09-30.json"),
     ("minimax-m2.7", 20, 0.06, 0.3, 1.2, "official three-part price; Older models all $20; goat-opencode-catalogs-round3-2026-09-30.json"),
     ("minimax-m2.5", 20, 0.03, 0.3, 1.2, "official three-part price; Older models all $20; goat-opencode-catalogs-round3-2026-09-30.json"),
-    ("ling-3.1-flash", 20, 0.06, 0.3, 0.9, "new official row; per-model credits $20; scheduled $100 from 2026-10-15T12:30Z (no end date, not live at collection) kept in research only; goat-ling31-flash-round1-2026-10-15.json"),
+    ("ling-3.1-flash", 100, 0.06, 0.3, 0.9, "new official row; per-model credits $20->$100 (reverified 2026-10-16 ~10:36 Beijing: credits table shows a flat $100 with no was/through/creditDeal wording, and RSC budgetUsd=100 with budgetSteps carrying no down-step, so the $100 tier is adopted as the standing tier per the no-end-marker precedent, same as DeepSeek V4.1 Flash $15->$60; effective = min($70 shared pool, $100) = $70; the 2026-10-15T12:30Z scheduled $100 step that was not live at the round1 capture is now live and permanent; three-part price unchanged cached/input/output=$0.06/$0.30/$0.90; goat-ling31-flash-round1-2026-10-15.json; goat-ling31-flash-round2-2026-10-16.json"),
 )
 
 
