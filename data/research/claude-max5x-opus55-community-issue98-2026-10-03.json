@@ -60,6 +60,15 @@
         "modelEffort": "claude-opus-5-5（主跑 medium，对照组 low）",
         "countingRule": "同日依次跑，按完整 1% 区间计",
         "fiveHourWindowQuotaUsedPct": "30% → 50%",
+        "controlGroupTotals": {
+          "calls": 856,
+          "input": 1391164,
+          "cacheRead": 18298137,
+          "cacheWrite1h": 258383,
+          "output": 177609,
+          "text": "对照组 856 次调用：输入 1,391,164，缓存读 18,298,137，1h 缓存写 258,383，输出 177,609",
+          "verification": "四组调用数 127+48+101+580 = 856，与总数一致"
+        },
         "groups": [
           {
             "group": "B",
