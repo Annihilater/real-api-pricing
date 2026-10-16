@@ -288,31 +288,32 @@ No.  Plan                                   Monthly fee             Served model
 279  SuperGrok Lite                         USD 10                  Grok 4.6                      0.15                0.06667   low
 280  Command Code GOAT                      USD 10                  Nemotron 3 Ultra              0.1395              0.07168   medium
 281  Ollama Pro                             USD 20                  Kimi K3                       0.1361              0.14695   medium
-282  Command Code GOAT                      USD 10                  Muse Spark 1.3                0.101               0.09901   medium
-283  Command Code GOAT                      USD 10                  Muse Spark 1.2                0.101               0.09901   medium
-284  Command Code GOAT                      USD 10                  Kimi K2.6                     0.1005              0.0995    medium
-285  Command Code GOAT                      USD 10                  Inkling                       0.0952              0.10504   medium
-286  Command Code GOAT                      USD 10                  GPT 5.6 Sol                   0.0921              0.10858   medium
-287  Command Code GOAT                      USD 10                  GLM 5                         0.0851              0.11751   medium
-288  Kimi Andante (CN) (v1) †               CNY 49                  Kimi K2.7 Code                0.078               0.09267   medium
-289  OpenCode Go                            USD 10                  Gemini 4 Argon Contributor    0.0761              0.13141   medium
-290  Google AI Pro                          USD 19.99               Gemini 4 Argon                0.066               0.30288   low
-291  Command Code GOAT                      USD 10                  GLM 5.3                       0.0647              0.15456   medium
-292  Command Code GOAT                      USD 10                  GLM 5.1                       0.0647              0.15456   medium
-293  Command Code GOAT                      USD 10                  Qwen3.8 Max                   0.062               0.16129   medium
-294  Command Code GOAT                      USD 10                  Qwen3.8 Max 0902              0.062               0.16129   medium
-295  Command Code GOAT                      USD 10                  Qwen3.6 Max Preview           0.0618              0.16181   medium
-296  Command Code GOAT                      USD 10                  Qwen3.7 Max                   0.0564              0.1773    medium
-297  Command Code GOAT                      USD 10                  MiMo V2.6 Pro UltraSpeed      0.0534              0.18727   medium
-298  OpenCode Go                            USD 10                  GLM 5.3                       0.0485              0.20619   medium
-299  OpenCode Go                            USD 10                  Qwen3.8 Max                   0.0465              0.21505   medium
-300  Command Code GOAT                      USD 10                  Kimi K3                       0.0454              0.22026   medium
-301  Command Code GOAT                      USD 10                  Kimi K2.7 Code HighSpeed      0.0439              0.22779   medium
-302  Command Code GOAT                      USD 10                  Grok 4.7                      0.0354              0.28249   medium
-303  Command Code GOAT                      USD 10                  Grok 4.5                      0.0354              0.28249   medium
-304  Command Code GOAT                      USD 10                  Grok 4.6                      0.0354              0.28249   medium
-305  OpenCode Go                            USD 10                  Kimi K3                       0.034               0.29412   medium
-306  Command Code GOAT                      USD 10                  Claude Sonnet 5.5             0.034               0.29412   medium
-307  Command Code GOAT                      USD 10                  GLM 5.2 Fast                  0.0327              0.30581   medium
-308  OpenCode Go                            USD 10                  Grok 4.6                      0.0265              0.37736   medium
-309  OpenCode Go                            USD 10                  Grok 4.7                      0.0265              0.37736   medium
+282  OpenCode Go                            USD 10                  Step 5 Preview                0.1107              0.09033   medium
+283  Command Code GOAT                      USD 10                  Muse Spark 1.3                0.101               0.09901   medium
+284  Command Code GOAT                      USD 10                  Muse Spark 1.2                0.101               0.09901   medium
+285  Command Code GOAT                      USD 10                  Kimi K2.6                     0.1005              0.0995    medium
+286  Command Code GOAT                      USD 10                  Inkling                       0.0952              0.10504   medium
+287  Command Code GOAT                      USD 10                  GPT 5.6 Sol                   0.0921              0.10858   medium
+288  Command Code GOAT                      USD 10                  GLM 5                         0.0851              0.11751   medium
+289  Kimi Andante (CN) (v1) †               CNY 49                  Kimi K2.7 Code                0.078               0.09267   medium
+290  OpenCode Go                            USD 10                  Gemini 4 Argon Contributor    0.0761              0.13141   medium
+291  Google AI Pro                          USD 19.99               Gemini 4 Argon                0.066               0.30288   low
+292  Command Code GOAT                      USD 10                  GLM 5.3                       0.0647              0.15456   medium
+293  Command Code GOAT                      USD 10                  GLM 5.1                       0.0647              0.15456   medium
+294  Command Code GOAT                      USD 10                  Qwen3.8 Max                   0.062               0.16129   medium
+295  Command Code GOAT                      USD 10                  Qwen3.8 Max 0902              0.062               0.16129   medium
+296  Command Code GOAT                      USD 10                  Qwen3.6 Max Preview           0.0618              0.16181   medium
+297  Command Code GOAT                      USD 10                  Qwen3.7 Max                   0.0564              0.1773    medium
+298  Command Code GOAT                      USD 10                  MiMo V2.6 Pro UltraSpeed      0.0534              0.18727   medium
+299  OpenCode Go                            USD 10                  GLM 5.3                       0.0485              0.20619   medium
+300  OpenCode Go                            USD 10                  Qwen3.8 Max                   0.0465              0.21505   medium
+301  Command Code GOAT                      USD 10                  Kimi K3                       0.0454              0.22026   medium
+302  Command Code GOAT                      USD 10                  Kimi K2.7 Code HighSpeed      0.0439              0.22779   medium
+303  Command Code GOAT                      USD 10                  Grok 4.7                      0.0354              0.28249   medium
+304  Command Code GOAT                      USD 10                  Grok 4.5                      0.0354              0.28249   medium
+305  Command Code GOAT                      USD 10                  Grok 4.6                      0.0354              0.28249   medium
+306  OpenCode Go                            USD 10                  Kimi K3                       0.034               0.29412   medium
+307  Command Code GOAT                      USD 10                  Claude Sonnet 5.5             0.034               0.29412   medium
+308  Command Code GOAT                      USD 10                  GLM 5.2 Fast                  0.0327              0.30581   medium
+309  OpenCode Go                            USD 10                  Grok 4.6                      0.0265              0.37736   medium
+310  OpenCode Go                            USD 10                  Grok 4.7                      0.0265              0.37736   medium
