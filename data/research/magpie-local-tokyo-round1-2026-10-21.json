@@ -1987,9 +1987,9 @@
     },
     {
       "id": "devin_max-cycle-0-claude-opus-5.5",
-      "account_ref": "devin_max_special_no_daily_cap",
+      "account_ref": "devin_max_standard",
       "provider": "devin",
-      "plan": "Devin Max (special account without daily cap)",
+      "plan": "Devin Max (standard)",
       "model": "claude-opus-5.5",
       "telemetry_model": "claude-opus-5.5",
       "evidence_grade": "medium",
@@ -1998,7 +1998,7 @@
         "basis": "contributor_confirmation",
         "confirmed_on": "2026-10-22",
         "cached_vendor_label_conflict": false,
-        "note": "Contributor confirms a special Max account with no daily cap; not a standard-Max anchor."
+        "note": "Contributor confirms a standard Devin Max account."
       },
       "reference_monthly_fee": {
         "value": 200,
@@ -2407,9 +2407,9 @@
     },
     {
       "id": "devin_max-cycle-1-claude-opus-5.5",
-      "account_ref": "devin_max_special_no_daily_cap",
+      "account_ref": "devin_max_standard",
       "provider": "devin",
-      "plan": "Devin Max (special account without daily cap)",
+      "plan": "Devin Max (standard)",
       "model": "claude-opus-5.5",
       "telemetry_model": "claude-opus-5.5",
       "evidence_grade": "medium",
@@ -2418,7 +2418,7 @@
         "basis": "contributor_confirmation",
         "confirmed_on": "2026-10-22",
         "cached_vendor_label_conflict": false,
-        "note": "Contributor confirms a special Max account with no daily cap; not a standard-Max anchor."
+        "note": "Contributor confirms a standard Devin Max account."
       },
       "reference_monthly_fee": {
         "value": 200,
@@ -4231,7 +4231,7 @@
       ]
     },
     {
-      "account_ref": "devin_max_special_no_daily_cap",
+      "account_ref": "devin_max_standard",
       "provider": "devin",
       "hosts_with_history": [
         "local",

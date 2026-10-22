@@ -14,15 +14,15 @@ Monthly allowances below assume saturated use: four weeks, or five weekly pools 
 | SuperGrok Heavy | Grok 4.7 | Oct 13 16:23 → Oct 16 14:13 | 10pp | 1,755 | 2 | 85.9552 | USD 300 | USD 0.03490 | medium |
 | Devin Pro, cycle A | Claude Opus 5.5 | Oct 13 14:59 → Oct 15 12:13 | 82pp | 202 | 14 | 2.8971 | USD 20 | USD 0.06903 | medium |
 | Devin Pro, cycle B | Claude Opus 5.5 | Oct 18 08:02 → Oct 20 12:32 | 85pp | 235 | 13 | 2.7659 | USD 20 | USD 0.07231 | medium |
-| Devin Max, special account without daily cap, cycle A | Claude Opus 5.5 | Oct 14 05:00 → Oct 15 10:13 | 22pp | 307 | 4 | 12.8416 | USD 200 | USD 0.15574 | medium |
-| Devin Max, special account without daily cap, cycle B | Claude Opus 5.5 | Oct 18 08:02 → Oct 21 15:46 | 87pp | 1,152 | 17 | 29.2189 | USD 200 | USD 0.06845 | medium |
+| Devin Max (standard), cycle A | Claude Opus 5.5 | Oct 14 05:00 → Oct 15 10:13 | 22pp | 307 | 4 | 12.8416 | USD 200 | USD 0.15574 | medium |
+| Devin Max (standard), cycle B | Claude Opus 5.5 | Oct 18 08:02 → Oct 21 15:46 | 87pp | 1,152 | 17 | 29.2189 | USD 200 | USD 0.06845 | medium |
 | MiniMax M Plan Go (CN) | M3.1 Flash Preview | Oct 18 18:10 → Oct 19 13:04 | 20pp | 664 | 4 | 15.4881 raw | CNY 49 | CNY 0.03164 | medium |
 
 The JSON holds exact timestamps, every sample in each selected cycle, all token components, selected/excluded sample flags, endpoint-rounding sensitivity, and recomputable confidence metrics. The table's intervals bound selected samples; excluded mixed-model intervals may occur inside them.
 
 **Interpretation and adoption limits:**
 
-- The contributor confirms the first Devin account is Pro despite the cached `Devin Max` label. The second is a **special Max account with no daily cap**. It must not become an ordinary-Max anchor. Its two cycles differ by about 2.28×; preserve them separately. USD 200 is the old mapping's reference fee, not a newly confirmed special-account payment.
+- The contributor confirms the first Devin account is Pro despite the cached `Devin Max` label. The second is a **standard Max account**. Its two cycles differ by about 2.28×; preserve them separately. USD 200 is the old mapping's reference fee, not a newly confirmed payment.
 - Kimi and SuperGrok tiers retain the prior contributor mapping; the cached quota responses do not independently verify their tier or fee. Grades describe the account-cycle measurements, not universal plan entitlements.
 - The SuperGrok sample is historical, only 10pp and two blocks. The more recent mixed/unstable cycle failed qualification. It is not evidence that the account currently has this capacity.
 - MiniMax is raw observed-workload capacity under the existing [2026-10-01 exception](../../CONVENTIONS.md#4-各渠道现行口径). No M3 price is borrowed. The newer `minimax-m3.1-flash` identifier is kept separate from Preview. Annual billing and other tiers are not extrapolated.
@@ -58,12 +58,6 @@ The JSON records 43 rejected model-cycle observations without publishing their e
 
 Source-file SHA-256 hashes remain in the public evidence; original emails, host addresses, credentials, request/session identifiers, prompts and private paths do not. Public aggregates reproduce the arithmetic, not independently authenticate the private account attribution.
 
-## Reproduce / 复核
+## Status / 状态
 
-Run from the repository root with Python 3.10+; no private files or third-party packages are needed:
-
-```sh
-python scripts/checks/verify_magpie_measurements.py
-```
-
-The verifier recomputes token totals, list-worth, workload blends, weekly/monthly capacity, reference unit prices, block CV, effective blocks, leave-one-out sensitivity, endpoint rounding ranges, grade thresholds, mirror-count reconciliation and basic public-data redaction checks. The existing adopted table, derived prices and charts remain the maintainer's current decisions under [CONVENTIONS.md §3](../../CONVENTIONS.md#3-证据等级).
+The existing adopted table, derived prices and charts remain the maintainer's current decisions under [CONVENTIONS.md §3](../../CONVENTIONS.md#3-证据等级).

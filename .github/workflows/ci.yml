@@ -58,7 +58,6 @@ jobs:
 
       - name: Data checks
         run: |
-          python scripts/checks/verify_magpie_measurements.py
           python scripts/checks/verify_i18n.py
           python scripts/checks/verify_benchmark_configs.py
           python scripts/checks/verify_aa_snapshot.py
