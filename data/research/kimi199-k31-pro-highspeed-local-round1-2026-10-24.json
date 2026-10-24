@@ -1,0 +1,107 @@
+{
+  "collectedAt": "2026-10-24",
+  "collectionMethod": "Contributor's own Kimi Code CLI session on a legacy Kimi membership CNY 199 (Allegretto) account, model alias kimi-code/k3.1-pro-highspeed with thinking effort high, provider managed:kimi-code (direct Kimi Code OAuth, no gateway or proxy). Token counts were summed offline from the client's local session event log (one usage record per LLM request, fields inputOther / output / inputCacheRead / inputCacheCreation) across the main agent and five sub-agents. The membership dashboard percentage before and after the run was not captured, so no weekly or monthly allowance is back-calculated here. Official model-page wording was read on 2026-10-24. Research-only — no adopted row generated and no adopted value changed.",
+  "sources": [
+    "Contributor local Kimi Code CLI session log (private; aggregates only, see PUBLICATION.md)",
+    "https://www.kimi.com/code/docs/kimi-code/models",
+    "data/research/goat-kimi-k31-pro-round1-2026-10-24.json (third-party catalog three-part price for Kimi K3.1 Pro, cross-reference only)"
+  ],
+  "scope": "One Kimi Code session of about 22 minutes: a multi-agent MR-drafting task on a Rust repository (plan mode, two explore sub-agents, two coder sub-agents, one more explore sub-agent, Postgres-backed acceptance test run). Consumption sample for the model identifier k3.1-pro-highspeed on the legacy CNY 199 tier. No quota percentage, so this is not an allowance measurement under CONVENTIONS.md §3.",
+  "adoptionStatus": "research-only; not adopted. adopted.csv has no kimi_allegretto_cn × kimi-k3.1-pro or × kimi-k3.1-pro-highspeed row; DECISIONS.md still says HighSpeed has no adoptable value. This file adds a first-party availability and consumption data point, not an allowance.",
+  "target": {
+    "plan": "Kimi 会员 199 / Allegretto (CN, legacy plan)",
+    "planIdCandidate": "kimi_allegretto_cn",
+    "model": "k3.1-pro-highspeed (K3.1 Pro Highspeed)",
+    "servedModelCandidate": "kimi-k3.1-pro-highspeed",
+    "thinkingEffort": "high",
+    "client": "Kimi Code CLI, multi-agent (main + 5 sub-agents, all bound to the same model alias and effort)",
+    "requiredEvidenceForAllowance": "Same account, same model, total tokens plus a 7-day or monthly dashboard percentage at the start and end of the window — not captured in this run."
+  },
+  "observed": {
+    "windowUtc": {
+      "firstRequest": "2026-10-24T13:04:02Z",
+      "lastRequest": "2026-10-24T13:25:58Z",
+      "approxDurationMinutes": 22
+    },
+    "windowBeijing": "2026-10-24 21:04 → 21:26 UTC+8",
+    "llmRequests": 152,
+    "tokens": {
+      "inputUncached": 666126,
+      "inputCacheRead": 15206144,
+      "inputCacheCreation": 0,
+      "output": 88467,
+      "total": 15960737
+    },
+    "tokenShares": {
+      "inputUncached": 0.0417,
+      "inputCacheRead": 0.9527,
+      "output": 0.0055,
+      "note": "Lower cache share than the repository standard workload (97 / 2.5 / 0.5) because each of the five sub-agents starts a fresh context and the main agent's 94 requests re-read a 100k+ token context. Output share 0.55% is in line with the standard 0.5%."
+    },
+    "contextPerRequest": {
+      "maxTokens": 168660,
+      "medianTokens": 104563,
+      "requestsOver256k": 0,
+      "note": "No request exceeded the 262,144-token boundary, so this sample does not exercise the 1M-context entitlement."
+    },
+    "perAgent": [
+      {"agent": "main", "profile": "agent", "requests": 94, "inputUncached": 161611, "inputCacheRead": 11470336, "output": 35544},
+      {"agent": "sub-1", "profile": "explore", "requests": 8, "inputUncached": 139842, "inputCacheRead": 507648, "output": 13807},
+      {"agent": "sub-2", "profile": "explore", "requests": 9, "inputUncached": 131495, "inputCacheRead": 600064, "output": 12682},
+      {"agent": "sub-3", "profile": "coder", "requests": 17, "inputUncached": 75776, "inputCacheRead": 1161728, "output": 7979},
+      {"agent": "sub-4", "profile": "coder", "requests": 14, "inputUncached": 82963, "inputCacheRead": 951808, "output": 11902},
+      {"agent": "sub-5", "profile": "explore", "requests": 10, "inputUncached": 74439, "inputCacheRead": 514560, "output": 6553}
+    ],
+    "cacheCreationNote": "The client log reports inputCacheCreation = 0 on every request. Kimi's API bills cache writes separately for the K3 series, so either the Kimi Code channel does not expose cache-write counts to the client or they are folded into other fields. Treat the uncached-input figure as 'not cache-hit input', not as a verified cache-write count.",
+    "rateLimit": {
+      "http429Count": 1,
+      "at": "2026-10-24T13:19:05Z",
+      "message": "429 The engine is currently overloaded, please try again later",
+      "note": "Capacity overload, not a quota exhaustion message; the client retried after ~0.5 s and the turn completed. No quota-limit message appeared in the session."
+    },
+    "dashboardQuotaPercent": null,
+    "dashboardQuotaNote": "Not captured. Without a before/after 5-hour, 7-day or monthly percentage no weekly or monthly token allowance can be inferred from this sample."
+  },
+  "officialModelPage": {
+    "source": "https://www.kimi.com/code/docs/kimi-code/models",
+    "readAt": "2026-10-24",
+    "k3.1-pro-highspeed": {
+      "displayName": "K3.1 Pro Highspeed",
+      "speed": "high-speed, about 2–3× the standard version",
+      "consumptionMultiplier": 2,
+      "consumptionQuote": "高速版（约 2–3 倍速，2 倍消耗）; 消耗约为普速版两倍",
+      "tiers": "Pro and above (new plans) / Allegretto and above (legacy plans)",
+      "contextWindow": "up to 1,048,576 for higher tiers"
+    },
+    "k3.1-pro": {
+      "displayName": "K3.1 Pro",
+      "consumptionMultiplier": 1,
+      "tiers": "Plus and above / Moderato and above; 1M context needs Pro and above / Allegretto and above"
+    },
+    "consistencyWithThisRun": "The legacy CNY 199 Allegretto account could call k3.1-pro-highspeed for the whole session, matching the page's 'Allegretto and above' entitlement.",
+    "implicationIfAdopted": "If the maintainer later adopts a kimi_allegretto_cn × kimi-k3.1-pro allowance, the highspeed variant's raw-token allowance should be derived as one half of it (official 2× credit consumption), the same way the official k3 (1M) = 2 × k3-256k and K2.7 Code Highspeed = 3× multipliers are handled, rather than measured separately."
+  },
+  "crossReferenceOnly": {
+    "kimiK31ProThirdPartyThreePartPriceUsd": {
+      "inputPerMTok": 2.00,
+      "outputPerMTok": 10.00,
+      "cachedReadPerMTok": 0.20,
+      "source": "data/research/goat-kimi-k31-pro-round1-2026-10-24.json (Command Code GOAT catalog, 2026-10-24)",
+      "note": "Not Moonshot's official API price. The official pricing page (platform.kimi.com/docs/pricing/chat) renders its tables client-side and was not captured on 2026-10-24. Recorded only so a future list-worth conversion of this sample has a documented candidate price; no list-worth is computed here."
+    }
+  },
+  "calculation": {
+    "weeklyTokens": null,
+    "monthlyTokens": null,
+    "monthlyYi": null,
+    "note": "Deliberately not computed: no dashboard percentage. Multiplying the CNY 199 adopted K3 allowance (14.51亿, K3-256K-dominated mixed sample) by any K3.1 ratio would be a cross-model assumption with no evidence in this file."
+  },
+  "whatWouldUpgradeThisSample": [
+    "A Kimi membership page screenshot (5-hour, 7-day and monthly usage percentages) taken immediately before and after a k3.1-pro-highspeed-only session on the same account, with the client token total for the same interval.",
+    "Repeating the run with k3.1-pro (standard speed) under the same account to check the official 2× consumption ratio against dashboard deltas.",
+    "Capturing whether the Kimi Code channel reports cache-write tokens anywhere, so the input split can be reconciled with Moonshot's K3-series cache-write billing."
+  ],
+  "confidence": "n/a for allowance (no percentage); token counts themselves are exact client-log sums",
+  "basis": "local_client_log + official_docs",
+  "redaction": "Session identifiers, prompts, repository paths and account details are omitted; only aggregate token counts, timestamps rounded to the second, request counts and the single error message are published."
+}
