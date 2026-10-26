@@ -188,6 +188,30 @@
 <g class="point" data-billing="subscription" data-frontier="false" data-price="0.021045918" data-score="25.8121" data-x="784.963" data-y="555.277" transform="translate(784.963 555.277)"><title>Kimi K2.7 Code (v1) · Kimi 会员 699 · ¥699 / 国际 $99 · $0.02105/MTok · 25.8121 · mediumKimi K2.7 Code · Exact served-model reference; quota-measurement effort is unverified.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
 </g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.13103448" data-score="43.5938" data-x="529.380" data-y="396.919" transform="translate(529.380 396.919)"><title>Kimi K3 (v2) · Kimi Plus 99 · ¥99 / 国际 $19 · $0.13103/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.053793103" data-score="43.5938" data-x="653.808" data-y="396.919" transform="translate(653.808 396.919)"><title>Kimi K3 (v2) · Kimi Pro 199 · ¥199 / 国际 $39 · $0.05379/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.045475425" data-score="43.5938" data-x="677.284" data-y="396.919" transform="translate(677.284 396.919)"><title>Kimi K3 (v2) · Kimi Max 699 · ¥699 / 国际 $99 · $0.04548/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.045715598" data-score="43.5938" data-x="676.548" data-y="396.919" transform="translate(676.548 396.919)"><title>Kimi K3 (v2) · Kimi Ultra 1399 · ¥1399 / 国际 $199 · $0.04572/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.12101911" data-score="25.8121" data-x="540.492" data-y="555.277" transform="translate(540.492 555.277)"><title>Kimi K2.7 Code (v2) · Kimi Plus 99 · ¥99 / 国际 $19 · $0.12102/MTok · 25.8121 · mediumKimi K2.7 Code · Exact served-model reference; quota-measurement effort is unverified.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.049744898" data-score="25.8121" data-x="664.743" data-y="555.277" transform="translate(664.743 555.277)"><title>Kimi K2.7 Code (v2) · Kimi Pro 199 · ¥199 / 国际 $39 · $0.04974/MTok · 25.8121 · mediumKimi K2.7 Code · Exact served-model reference; quota-measurement effort is unverified.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.042091837" data-score="25.8121" data-x="688.090" data-y="555.277" transform="translate(688.090 555.277)"><title>Kimi K2.7 Code (v2) · Kimi Max 699 · ¥699 / 国际 $99 · $0.04209/MTok · 25.8121 · mediumKimi K2.7 Code · Exact served-model reference; quota-measurement effort is unverified.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.042304422" data-score="25.8121" data-x="687.386" data-y="555.277" transform="translate(687.386 555.277)"><title>Kimi K2.7 Code (v2) · Kimi Ultra 1399 · ¥1399 / 国际 $199 · $0.0423/MTok · 25.8121 · mediumKimi K2.7 Code · Exact served-model reference; quota-measurement effort is unverified.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
 <g class="point" data-billing="subscription" data-frontier="false" data-price="0.084502269" data-score="44.7774" data-x="590.689" data-y="386.379" transform="translate(590.689 386.379)"><title>GLM 5.3 (v3) · GLM Lite (v3 ¥118) 忙时 · $0.0845/MTok · 44.7774 · highGLM-5.3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#1E1E1E" opacity=".68"/>
 </g>
@@ -994,7 +1018,7 @@
 <path d="M356.52 849l5 5-5 5-5-5Z" fill="none" stroke="#8B958D" stroke-width="1.2"/>
 <text x="370.520" y="858.000" font-size="12" fill="#687168" text-anchor="start" font-weight="400" >按量 API</text>
 <text x="56.000" y="898.000" font-size="12" fill="#727B72" text-anchor="start" font-weight="400" >默认月=4周；Kimi月池=周池×5，Droid月=周×2 · 美元/credits换算：缓存97% / 输入2.5% / 输出0.5% · 直接total实测不重算</text>
-<text x="1384.000" y="898.000" font-size="12" fill="#727B72" text-anchor="end" font-weight="400" >265 个订阅位置 / 19 个 API 位置 / 6 个前沿位置</text>
+<text x="1384.000" y="898.000" font-size="12" fill="#727B72" text-anchor="end" font-weight="400" >273 个订阅位置 / 19 个 API 位置 / 6 个前沿位置</text>
 <text x="56.000" y="922.000" font-size="11" fill="#929A90" text-anchor="start" font-weight="400" >Claude Max：9/14 起永久额度估算；Pro：Opus 5 周池面板反推。Y 取同模型存档最高分变体。</text>
 <text x="56.000" y="943.000" font-size="11" fill="#929A90" text-anchor="start" font-weight="400" >订阅与按量API共同参与前沿；连线中间不代表可购套餐。完整出处与假设见项目核对报告。</text>
 <text x="1384.000" y="943.000" font-size="11" fill="#929A90" text-anchor="end" font-weight="400" >artificialanalysis.ai/leaderboards/models</text>

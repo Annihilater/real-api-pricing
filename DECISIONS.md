@@ -3,6 +3,11 @@
 本地 `AGENTS.md`（不入库）只放 Agent 工作流程；口径与规则见 [`CONVENTIONS.md`](CONVENTIONS.md)；本文件记录每条采用值的取舍（旧值 → 新值 → 依据 → 未采来源）。
 最权威的表述仍在 `scripts/build_adopted.py` 的 `decision_note` 和 `data/research/` 证据文件里；本文件是按时间的索引摘要。改数只能改 `build_adopted.py`，改完在这里同步记一笔。
 
+## 2026-10-26 · Kimi 新套餐（v2）额度 = 同价旧档（v1）× 1/2（裁定）
+
+- **采用**：新增 4 档 8 行，全部 derived·medium——`kimi_plus_cn`「Kimi Plus 99」k3 1.45 亿 / k2.7-code 1.57 亿；`kimi_pro_cn`「Kimi Pro 199」k3 7.25 亿 / k2.7-code 7.84 亿；`kimi_max_cn`「Kimi Max 699」k3 21.77 亿 / k2.7-code 23.52 亿；`kimi_ultra_cn`「Kimi Ultra 1399」k3 43.53 亿 / k2.7-code 47.04 亿。依据官方 2026-10-19 新套餐页：Go ¥49 / Plus ¥99 / Pro ¥199 / Max ¥699 / Ultra ¥1399（国际版 $19/$39/$99/$199），与旧音乐名档同价一一对应（Andante→Go、Moderato→Plus、Allegretto→Pro、Allegro→Max、Vivace→Ultra），取消周限额、只留滚动 5h + 月度共享池。2026-10-26 维护者裁定：新套餐额度 = 同价旧档 ×1/2。Ultra 无 v1 对照，按官方「Ultra Agent 额度为 Max 的 2 倍」（28× vs 14×）= Max×2 派生；Go 无 Kimi Code 不入点。新套餐行 `plan_gen=v2`（维护者口径 v1=旧音乐名档、v2=新名档），国际价按 KIMI_INTL 并点。
+- 证据：`data/research/kimi-v2-plans-round1-2026-10-26.json`（含维护者 k3.1-pro 周池截图测量 ≈10.95 亿等效——账号档位未确认，research-only 不采用）。
+
 ## 2026-10-16 · OpenCode Go × Step 5 Preview 首个采用点
 
 - **采用**：新增 `opencode_go × step-5-preview` = **1.107 亿/月 medium**（官方表）。2026-10-15 该模型为 Free 不限量限时条目（无金额额度，不收录）；2026-10-16 改为付费行，月度 Usage $15，三段价 cached/input/output = $0.10/$1.00/$2.70，标准档混合价 $0.1355/MTok；$15 ÷ $0.1355 = 1.107 亿。页面「4x · Limited time」$60 无截止日期，按临时促销规则不采（采用则约 4.428 亿）。官方请求估算 $15 档 430 / 1,070 / 2,130 次（5h / 周 / 月）；按官方单请求负载（1,000 输入 + 55,000 缓存 + 200 输出）复算 2,130 次 × $0.00704 = $15.0，与 Usage 一致。
@@ -172,7 +177,7 @@
 ## 早期采用决策（2026-09-20 之前；原始日期见各 research 文件）
 
 - **Cursor**：Ultra 标准 Grok 4.6 采用 77.37 亿/月：维护者当前平滑账号标准主行 67.78 亿与社区 8 月 26 日标准主行 86.95 亿取中间值；Fast 采用维护者当前账号大样本 863.8M/28.1%=30.74 亿；Pro+ 采用 `77.37×800/3000=20.632` 亿，Composer 两模式随动。两图均在 8 月 25 日永久扩池后；社区图可能因首周半价用量集中而略高。现行决策见 `data/research/cursor-adoption-round8-2026-09-06.json`；round6/7 为历史证据，不覆盖。Cursor 与 SuperGrok 是不同渠道。
-- **Kimi**：¥49 无 K3 调用权限，已确认仅排除该档 K3 点；K2.7 Standard 所有会员可用。Kimi 月池是周池的 5 倍，不能套项目通用 4 周。K3 采用：¥199 为 14.51 亿/月（K3-256K 为主的混合样本，不能宣称纯 K3 1M），¥99/¥699 按 4/20 与 60/20 派生。K2.7 Standard 采用：¥199 纯模型面板 15.68 亿/月、medium，可信范围约 15.6~16.7 亿；¥49/¥99/¥699 按官方 1/20、4/20、60/20 派生为 0.78/3.14/47.04 亿。HighSpeed 与 K2.6 暂无当前可采用值。
+- **Kimi**：¥49 无 K3 调用权限，已确认仅排除该档 K3 点；K2.7 Standard 所有会员可用。Kimi 月池是周池的 5 倍，不能套项目通用 4 周。K3 采用：¥199 为 14.51 亿/月（K3-256K 为主的混合样本，不能宣称纯 K3 1M），¥99/¥699 按 4/20 与 60/20 派生。K2.7 Standard 采用：¥199 纯模型面板 15.68 亿/月、medium，可信范围约 15.6~16.7 亿；¥49/¥99/¥699 按官方 1/20、4/20、60/20 派生为 0.78/3.14/47.04 亿。HighSpeed 与 K2.6 暂无当前可采用值。以上为 v1 旧音乐名档；新套餐 Go/Plus/Pro/Max/Ultra（v2）按同价 v1×1/2 派生，见 2026-10-26 条。
 - **Claude Max**：按 2026-09-14 起永久口径估算：20x=157 亿/月（参考 110~200 亿，medium），5x=78.5 亿（按裁定的周池比 2 由 20x 派生；不用 5h 窗口倍数，也不用旧 2.25 比）。Pro 档 Opus 5 后被 round8 shownotover 面板反推 18.78 亿取代，见 adopted decision_note。见 `claude-adoption-round6-2026-09-06.json`。
 - **GLM Coding Plan**：按官方周积分和三段积分系数套统一标准负载，忙时 1×、中间值 1.5×、闲时 2× 分别作为独立情景点，不互相替代。
 - **Gemini/Google**：已被 2026-09-21「Google AI Pro · Gemini 3.8 Flash」条取代。

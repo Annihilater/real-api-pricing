@@ -193,6 +193,30 @@
 <g class="point" data-billing="subscription" data-frontier="false" data-price="0.021045918" data-score="1473" data-x="848.202" data-y="530.435" transform="translate(848.202 530.435)"><title>Kimi K2.7 Code (v1) · Kimi Allegro · $99 / CN ¥699 · $0.02105/MTok · 1473 · mediumkimi-k2.7-code · Exact served-model reference only; product harness and quota-measurement effort are unverified. Not a benchmark measurement of this subscription or API channel.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
 </g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.13103448" data-score="1658" data-x="568.312" data-y="391.832" transform="translate(568.312 391.832)"><title>Kimi K3 (v2) · Kimi Plus · $19 / CN ¥99 · $0.13103/MTok · 1658 · mediumkimi-k3-max · Exact served-model reference only; product harness and quota-measurement effort are unverified. Not a benchmark measurement of this subscription or API channel.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.053793103" data-score="1658" data-x="704.574" data-y="391.832" transform="translate(704.574 391.832)"><title>Kimi K3 (v2) · Kimi Pro · $39 / CN ¥199 · $0.05379/MTok · 1658 · mediumkimi-k3-max · Exact served-model reference only; product harness and quota-measurement effort are unverified. Not a benchmark measurement of this subscription or API channel.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.045475425" data-score="1658" data-x="730.282" data-y="391.832" transform="translate(730.282 391.832)"><title>Kimi K3 (v2) · Kimi Max · $99 / CN ¥699 · $0.04548/MTok · 1658 · mediumkimi-k3-max · Exact served-model reference only; product harness and quota-measurement effort are unverified. Not a benchmark measurement of this subscription or API channel.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.045715598" data-score="1658" data-x="729.476" data-y="391.832" transform="translate(729.476 391.832)"><title>Kimi K3 (v2) · Kimi Ultra · $199 / CN ¥1399 · $0.04572/MTok · 1658 · mediumkimi-k3-max · Exact served-model reference only; product harness and quota-measurement effort are unverified. Not a benchmark measurement of this subscription or API channel.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.12101911" data-score="1473" data-x="580.481" data-y="530.435" transform="translate(580.481 530.435)"><title>Kimi K2.7 Code (v2) · Kimi Plus · $19 / CN ¥99 · $0.12102/MTok · 1473 · mediumkimi-k2.7-code · Exact served-model reference only; product harness and quota-measurement effort are unverified. Not a benchmark measurement of this subscription or API channel.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.049744898" data-score="1473" data-x="716.548" data-y="530.435" transform="translate(716.548 530.435)"><title>Kimi K2.7 Code (v2) · Kimi Pro · $39 / CN ¥199 · $0.04974/MTok · 1473 · mediumkimi-k2.7-code · Exact served-model reference only; product harness and quota-measurement effort are unverified. Not a benchmark measurement of this subscription or API channel.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.042091837" data-score="1473" data-x="742.116" data-y="530.435" transform="translate(742.116 530.435)"><title>Kimi K2.7 Code (v2) · Kimi Max · $99 / CN ¥699 · $0.04209/MTok · 1473 · mediumkimi-k2.7-code · Exact served-model reference only; product harness and quota-measurement effort are unverified. Not a benchmark measurement of this subscription or API channel.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.042304422" data-score="1473" data-x="741.345" data-y="530.435" transform="translate(741.345 530.435)"><title>Kimi K2.7 Code (v2) · Kimi Ultra · $199 / CN ¥1399 · $0.0423/MTok · 1473 · mediumkimi-k2.7-code · Exact served-model reference only; product harness and quota-measurement effort are unverified. Not a benchmark measurement of this subscription or API channel.</title>
+<rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
+</g>
 <g class="point" data-billing="subscription" data-frontier="false" data-price="0.084502269" data-score="1622" data-x="635.452" data-y="418.803" transform="translate(635.452 418.803)"><title>GLM 5.3 (v3) · GLM Lite (v3 ¥118) peak · $0.0845/MTok · 1622 · highglm-5.3-max · Exact served-model reference only; product harness and quota-measurement effort are unverified. Not a benchmark measurement of this subscription or API channel.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#1E1E1E" opacity=".68"/>
 </g>
@@ -902,7 +926,7 @@
 <path d="M323.12 849l5 5-5 5-5-5Z" fill="none" stroke="#8B958D" stroke-width="1.2"/>
 <text x="337.120" y="858.000" font-size="12" fill="#687168" text-anchor="start" font-weight="400" >Metered API</text>
 <text x="56.000" y="898.000" font-size="12" fill="#727B72" text-anchor="start" font-weight="400" >Default month = 4 weeks; Kimi pool = 5×, Droid = 2× weekly · Dollar/credit: 97% cache / 2.5% input / 0.5% output · Direct totals unchanged</text>
-<text x="1384.000" y="898.000" font-size="12" fill="#727B72" text-anchor="end" font-weight="400" >237 subscription positions / 18 API positions / 5 frontier positions</text>
+<text x="1384.000" y="898.000" font-size="12" fill="#727B72" text-anchor="end" font-weight="400" >245 subscription positions / 18 API positions / 5 frontier positions</text>
 <text x="56.000" y="922.000" font-size="11" fill="#929A90" text-anchor="start" font-weight="400" >Claude Max: permanent allowance estimate from Sep 14; Pro: historical Opus 4.8 measurement. Y uses the top archived variant per model.</text>
 <text x="56.000" y="943.000" font-size="11" fill="#929A90" text-anchor="start" font-weight="400" >Subscriptions and metered APIs share one frontier; line segments are visual guides, not purchasable plans.</text>
 <text x="1384.000" y="943.000" font-size="11" fill="#929A90" text-anchor="end" font-weight="400" >arena.ai/leaderboard/code</text>

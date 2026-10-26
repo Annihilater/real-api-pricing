@@ -237,6 +237,10 @@ KIMI_INTL = {  # plan_id -> (国际版展示名, 国际版月费 USD)
     "kimi_moderato_cn": ("Kimi Moderato", 19),
     "kimi_allegretto_cn": ("Kimi Allegretto", 39),
     "kimi_allegro_cn": ("Kimi Allegro", 99),
+    "kimi_plus_cn": ("Kimi Plus", 19),
+    "kimi_pro_cn": ("Kimi Pro", 39),
+    "kimi_max_cn": ("Kimi Max", 99),
+    "kimi_ultra_cn": ("Kimi Ultra", 199),
 }
 
 STANDARD_MIX = CONVENTIONS["standardTokenMix"]
@@ -1164,6 +1168,19 @@ SUBS = [
     ("kimi_moderato_cn", "Kimi 会员 99", 99, "CNY", "kimi-k2.7-code", round(kimi_k27_199_monthly_yi() * 4 / 20, 2), "medium", "199档×官方4/20；kimi-k27-adoption-round8-2026-09-08.json", "新增3.14亿：继承199档15.68亿与官方Code credits倍率；非独立实测"),
     ("kimi_andante_cn", "Kimi 会员 49", 49, "CNY", "kimi-k2.7-code", round(kimi_k27_199_monthly_yi() / 20, 2), "medium", "199档×官方1/20；K2.7 Standard所有会员可用；kimi-k27-adoption-round8-2026-09-08.json", "新增0.78亿：继承199档15.68亿与官方Code credits倍率；非独立实测。该档仅排除K3，不排除K2.7 Standard"),
     ("kimi_allegro_cn", "Kimi 会员 699", 699, "CNY", "kimi-k2.7-code", round(kimi_k27_199_monthly_yi() * 60 / 20, 2), "medium", "199档×官方60/20；kimi-k27-adoption-round8-2026-09-08.json", "新增47.04亿：继承199档15.68亿与官方Code credits倍率；独立699档K2.7占主导混合大样本缩回199档约16.74亿，仅作范围旁证"),
+    # Kimi 新套餐（v2）—— 官方 2026-10-19 页：Go ¥49 / Plus ¥99 / Pro ¥199 / Max ¥699 / Ultra ¥1399，国际版 $19/$39/$99/$199；
+    #   与旧套餐同价一一对应（Andante→Go、Moderato→Plus、Allegretto→Pro、Allegro→Max、Vivace→Ultra），
+    #   取消周限额、只留滚动5h+月度共享池。2026-10-26 维护者裁定：新套餐额度 = 同价旧档 ×1/2。
+    #   Go 档无 Kimi Code（官方「Go 不包含 Kimi Code」），不入点；Ultra 无 v1 对照，按官方 28/14=2× Max 派生。
+    #   证据：kimi-v2-plans-round1-2026-10-26.json
+    ("kimi_plus_cn", "Kimi Plus 99", 99, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 4 / 20 / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增1.45亿（v2）：Plus ¥99 接 Moderato ¥99 价位＝v1 2.90亿×1/2；取消周限额仅留5h+月池；非独立实测"),
+    ("kimi_pro_cn", "Kimi Pro 199", 199, "CNY", "kimi-k3", round(kimi_199_monthly_yi() / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增7.25亿（v2）：Pro ¥199 接 Allegretto ¥199 价位＝v1 14.51亿×1/2；取消周限额仅留5h+月池；非独立实测"),
+    ("kimi_max_cn", "Kimi Max 699", 699, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 60 / 20 / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增21.77亿（v2）：Max ¥699 接 Allegro ¥699 价位＝v1 43.53亿×1/2；取消周限额仅留5h+月池；非独立实测"),
+    ("kimi_ultra_cn", "Kimi Ultra 1399", 1399, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 60 / 20 / 2 * 2, 2), "medium", "官方新套餐页「Ultra为Max的2倍」+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增43.53亿（v2）：Ultra ¥1399 无 v1 同价对照，按官方 Agent 额度 28/14=2× Max 派生；数值恰同 v1 Allegro；非独立实测"),
+    ("kimi_plus_cn", "Kimi Plus 99", 99, "CNY", "kimi-k2.7-code", round(kimi_k27_199_monthly_yi() * 4 / 20 / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增1.57亿（v2）：Plus ¥99 接 Moderato ¥99 价位＝v1 3.14亿×1/2；非独立实测"),
+    ("kimi_pro_cn", "Kimi Pro 199", 199, "CNY", "kimi-k2.7-code", round(kimi_k27_199_monthly_yi() / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增7.84亿（v2）：Pro ¥199 接 Allegretto ¥199 价位＝v1 15.68亿×1/2；非独立实测"),
+    ("kimi_max_cn", "Kimi Max 699", 699, "CNY", "kimi-k2.7-code", round(kimi_k27_199_monthly_yi() * 60 / 20 / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增23.52亿（v2）：Max ¥699 接 Allegro ¥699 价位＝v1 47.04亿×1/2；非独立实测"),
+    ("kimi_ultra_cn", "Kimi Ultra 1399", 1399, "CNY", "kimi-k2.7-code", round(kimi_k27_199_monthly_yi() * 60 / 20 / 2 * 2, 2), "medium", "官方新套餐页「Ultra为Max的2倍」+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增47.04亿（v2）：Ultra ¥1399 无 v1 同价对照，按官方 Agent 额度 28/14=2× Max 派生；数值恰同 v1 Allegro；非独立实测"),
     # Kimi 海外 —— 不单画：官方 Code credits 倍率 1×/5×/15×/30× 与国内 1/4/20/60× 体系不同，且无绝对 token 证据；
     #   同名档按 KIMI_INTL 并入国内点、按国际版美元标价展示，仅海外档（Vivace $199）仍不画
     # 智谱 —— 官方周积分与三段积分系数按项目统一标准负载换算；忙时与闲时分开按月展示。
@@ -1338,7 +1355,7 @@ METERED = [
 # 精选图只画主流套餐 + 前沿相关点，避免 60 个点挤在一起；全量图画全部
 MAIN_PLANS = {"chatgpt_plus", "chatgpt_pro_20x", "claude_pro", "claude_max_20x", "claude_team", "cursor_ultra", "cursor_ultra_fast", "cursor_pro",
               "google_ai_pro_us",
-              "supergrok_heavy", "supergrok", "kimi_allegretto_cn", "glm_coding_pro_cn_new_peak", "glm_coding_pro_cn_new_mid", "glm_coding_pro_cn_new_offpeak", "glm_coding_pro_cn_old_peak", "glm_coding_pro_cn_old_mid", "glm_coding_pro_cn_old_offpeak",
+              "supergrok_heavy", "supergrok", "kimi_allegretto_cn", "kimi_pro_cn", "glm_coding_pro_cn_new_peak", "glm_coding_pro_cn_new_mid", "glm_coding_pro_cn_new_offpeak", "glm_coding_pro_cn_old_peak", "glm_coding_pro_cn_old_mid", "glm_coding_pro_cn_old_offpeak",
               "minimax_token_plus_cn", "minimax_token_plus_global", "aliyun_coding_pro_cn", "devin_max", "devin_pro", "droid_max",
               "mimo_token_lite_day", "mimo_token_standard_day", "mimo_token_pro_day", "mimo_token_max_day",
               "mimo_token_lite_night", "mimo_token_standard_night", "mimo_token_pro_night", "mimo_token_max_night"}
@@ -1454,6 +1471,14 @@ DATA_DATE_INHERIT = {
     ("kimi_moderato_cn", "kimi-k2.7-code"): ("kimi_allegretto_cn", "kimi-k2.7-code"),
     ("kimi_andante_cn", "kimi-k2.7-code"): ("kimi_allegretto_cn", "kimi-k2.7-code"),
     ("kimi_allegro_cn", "kimi-k2.7-code"): ("kimi_allegretto_cn", "kimi-k2.7-code"),
+    ("kimi_plus_cn", "kimi-k3"): ("kimi_moderato_cn", "kimi-k3"),
+    ("kimi_pro_cn", "kimi-k3"): ("kimi_allegretto_cn", "kimi-k3"),
+    ("kimi_max_cn", "kimi-k3"): ("kimi_allegro_cn", "kimi-k3"),
+    ("kimi_ultra_cn", "kimi-k3"): ("kimi_allegro_cn", "kimi-k3"),
+    ("kimi_plus_cn", "kimi-k2.7-code"): ("kimi_moderato_cn", "kimi-k2.7-code"),
+    ("kimi_pro_cn", "kimi-k2.7-code"): ("kimi_allegretto_cn", "kimi-k2.7-code"),
+    ("kimi_max_cn", "kimi-k2.7-code"): ("kimi_allegro_cn", "kimi-k2.7-code"),
+    ("kimi_ultra_cn", "kimi-k2.7-code"): ("kimi_allegro_cn", "kimi-k2.7-code"),
     ("aliyun_coding_pro_global", "qwen3.7-plus"): ("aliyun_coding_pro_cn", "qwen3.7-plus"),
 }
 
@@ -1480,13 +1505,16 @@ FIELDS = ["plan_id", "plan_name", "plan_name_en", "billing", "price", "currency"
           "plan_gen", "workload", "data_date", "data_date_kind", "data_date_from"]
 
 
+KIMI_V2_PLANS = {"kimi_plus_cn", "kimi_pro_cn", "kimi_max_cn", "kimi_ultra_cn"}
+
+
 def plan_gen_of(pid: str) -> str:
     # 套餐代际标注（2026-09-22 裁定）：GLM Coding 老客档=v2、新客档=v3（与 plot_quotas plan_name 映射一致）；
-    # Kimi 音乐名会员档=v1（新套餐 Plus/Pro/Max 未入库，届时为当前代不标）。其余套餐为当前代不标。
+    # Kimi 音乐名会员档=v1；2026-10-26 裁定新套餐 Go/Plus/Pro/Max/Ultra=v2（维护者口径）。其余套餐为当前代不标。
     if pid.startswith("glm_coding_"):
         return "v2" if "_old_" in pid else "v3"
     if pid.startswith("kimi_"):
-        return "v1"
+        return "v2" if pid in KIMI_V2_PLANS else "v1"
     return ""
 
 
