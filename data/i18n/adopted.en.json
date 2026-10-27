@@ -319,28 +319,28 @@
       "en": "New 896M (first measured point of the Other Models pool): segment worth $375.46 (read 748.78M×$0.2 + write 24.36M×$5(5m) + in 9.4K×$4 + out 5.19M×$20, hit 96.85%) = all Other Models usage in the cycle ÷ Anthropic-tier blended price $0.419/MTok; raw basis 778M kept as control; 1h-cache-write-$8 sensitivity worth $448.54 (1.071B) not adopted; worth is the same magnitude as the community-cited Ultra Other Models pool $400 (93.9%; CellCog once showed $500) — treated as the monthly pool essentially exhausted; the CSV has no billing-boundary or % fields so the whole export is counted, and if the pool was not fully used this value is conservative; a separate monthly pool from Cursor Models (grok-4.6 7.737B), not linked; single community source, panel % not screenshotted → medium; all records at high effort, which only affects burn rate"
     },
     {
-      "zh": "本机ccusage 243739068/84%反推周额度×Kimi月池5倍；kimi-adoption-round6-2026-09-08.json",
-      "en": "Local ccusage 243,739,068/84% back-derives the weekly quota × the Kimi monthly pool's 5×; kimi-adoption-round6-2026-09-08.json"
+      "zh": "维护者实测：Allegretto(赠送) k3.1-pro 单日 37362656 ÷ 控制台月总1.92% 直推月池；kimi-allegretto-quota-round2-2026-10-27.json",
+      "en": "Maintainer measurement: Allegretto (gifted) single-day k3.1-pro 37,362,656 tokens ÷ console monthly-total 1.92% gives the monthly pool directly; kimi-allegretto-quota-round2-2026-10-27.json"
     },
     {
-      "zh": "旧11.61亿→14.51亿：确认Kimi月池=周池×5，旧值误套项目通用4周；样本以k3-256k为主且含kimi-for-coding，非纯K3 1M实测；SWE1.7短时面板的模型/统计窗口不同，未替换基准；ACP14.28为旧模型旁证，不直接采用；未折算：ccusage 只存周合计，无分项；同名档国内外并为一点：月费与单价统一按国际版 Kimi Allegretto $39 标价（旧按国内 ¥199÷6.7787≈$29.36），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
-      "en": "Old 1.161B→1.451B: confirmed Kimi's monthly pool = weekly pool ×5 — the old value wrongly applied the project-wide 4 weeks; the sample is dominated by k3-256k and includes kimi-for-coding — not a pure K3 1M measurement; the SWE 1.7 short-window panel has a different model/statistics window and did not replace the baseline; ACP 14.28 is old-model corroboration, not directly adopted; not workload-normalized: ccusage stores only the weekly total, no breakdown; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Allegretto $39 list price (previously domestic ¥199÷6.7787≈$29.36); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
+      "zh": "19.46亿（2026-10-27换基）：k3.1-pro 单日37.36M ÷ 月总1.92% 直推；同窗7天9.61%得周池3.89亿、月/周=5.005吻合月池=周池×5；替换旧基14.51亿（2026-07 k3-256k混合ccusage 243.74M/84%反推）——模型等效不同（k3.1-pro vs k3-256k混合），非纯池变化；未折算：面板只存合计；同名档国内外并为一点：月费与单价统一按国际版 Kimi Allegretto $39 标价（旧按国内 ¥199÷6.7787≈$29.36），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
+      "en": "1.946B (re-based 2026-10-27): single-day k3.1-pro 37.36M ÷ monthly-total 1.92% gives the monthly pool directly; the same window's 7-day 9.61% implies a 389M weekly pool and month/week = 5.005, matching the monthly = weekly x 5 rule; replaces the prior basis 1.451B (2026-07 k3-256k-mixed ccusage 243.74M/84% back-calculation) — the model-equivalents differ (k3.1-pro vs k3-256k mix), so the gap is not a pure pool change; unconverted: the panel stores only totals; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Allegretto $39 list price (previously domestic ¥199÷6.7787≈$29.36); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
     },
     {
-      "zh": "199档×官方4/20；kimi-adoption-round6-2026-09-08.json",
-      "en": "¥199 tier × official 4/20; kimi-adoption-round6-2026-09-08.json"
+      "zh": "199档×官方4/20；kimi-allegretto-quota-round2-2026-10-27.json",
+      "en": "CNY-199 tier x official 4/20; kimi-allegretto-quota-round2-2026-10-27.json"
     },
     {
-      "zh": "旧2.32亿→2.90亿：随199档改用周池×5；继承K3-256K为主的混合负载估算，不是K3 1M纯模型实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Moderato $19 标价（旧按国内 ¥99÷6.7787≈$14.60），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
-      "en": "Old 232M→290M: follows the ¥199 tier's switch to weekly pool ×5; inherits the K3-256K-dominated mixed-workload estimate, not a pure K3 1M model measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Moderato $19 list price (previously domestic ¥99÷6.7787≈$14.60); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
+      "zh": "旧2.90亿→3.89亿：随199档换基（k3.1-pro实测）；继承模型等效，不是K3 1M纯模型实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Moderato $19 标价（旧按国内 ¥99÷6.7787≈$14.60），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
+      "en": "Prior 290M -> 389M: follows the CNY-199 tier re-base (k3.1-pro measurement); inherits the model-equivalent, not a pure K3 1M single-model measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Moderato $19 list price (previously domestic ¥99÷6.7787≈$14.60); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
     },
     {
-      "zh": "199档×官方60/20；kimi-adoption-round6-2026-09-08.json",
-      "en": "¥199 tier × official 60/20; kimi-adoption-round6-2026-09-08.json"
+      "zh": "199档×官方60/20；kimi-allegretto-quota-round2-2026-10-27.json",
+      "en": "CNY-199 tier x official 60/20; kimi-allegretto-quota-round2-2026-10-27.json"
     },
     {
-      "zh": "旧34.83亿→43.53亿：随199档改用周池×5；继承K3-256K为主的混合负载估算，不是K3 1M纯模型实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Allegro $99 标价（旧按国内 ¥699÷6.7787≈$103.12），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
-      "en": "Old 3.483B→4.353B: follows the ¥199 tier's switch to weekly pool ×5; inherits the K3-256K-dominated mixed-workload estimate, not a pure K3 1M model measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Allegro $99 list price (previously domestic ¥699÷6.7787≈$103.12); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
+      "zh": "旧43.53亿→58.38亿：随199档换基（k3.1-pro实测）；继承模型等效，不是K3 1M纯模型实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Allegro $99 标价（旧按国内 ¥699÷6.7787≈$103.12），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
+      "en": "Prior 4.353B -> 5.838B: follows the CNY-199 tier re-base (k3.1-pro measurement); inherits the model-equivalent, not a pure K3 1M single-model measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Allegro $99 list price (previously domestic ¥699÷6.7787≈$103.12); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
     },
     {
       "zh": "V2EX纯K2.7面板 11913113/0.76%=15.68亿；kimi-k27-round7-2026-09-08.json；kimi-k27-adoption-round8-2026-09-08.json",
@@ -373,6 +373,46 @@
     {
       "zh": "新增47.04亿：继承199档15.68亿与官方Code credits倍率；独立699档K2.7占主导混合大样本缩回199档约16.74亿，仅作范围旁证；同名档国内外并为一点：月费与单价统一按国际版 Kimi Allegro $99 标价（旧按国内 ¥699÷6.7787≈$103.12），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
       "en": "Added 4.704B: inherits the ¥199 tier's 1.568B and the official Code credits multiplier; the standalone ¥699-tier K2.7-dominated large mixed sample scaled back to the ¥199 tier is about 1.674B — range corroboration only; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Allegro $99 list price (previously domestic ¥699÷6.7787≈$103.12); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
+    },
+    {
+      "zh": "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json",
+      "en": "Official new-plan page + maintainer ruling v2 = v1 x 1/2; kimi-v2-plans-round1-2026-10-26.json"
+    },
+    {
+      "zh": "新增1.95亿（v2）：Plus ¥99 接 Moderato ¥99 价位＝v1 3.89亿×1/2；取消周限额仅留5h+月池；非独立实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Plus $19 标价（旧按国内 ¥99÷6.7787≈$14.60），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
+      "en": "New 195M (v2): Plus CNY 99 takes the Moderato CNY 99 price tier = v1 389M x 1/2; weekly cap removed, only rolling 5h + monthly pool left; not an independent measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Plus $19 list price (previously domestic ¥99÷6.7787≈$14.60); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
+    },
+    {
+      "zh": "新增9.73亿（v2）：Pro ¥199 接 Allegretto ¥199 价位＝v1 19.46亿×1/2；取消周限额仅留5h+月池；非独立实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Pro $39 标价（旧按国内 ¥199÷6.7787≈$29.36），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
+      "en": "New 973M (v2): Pro CNY 199 takes the Allegretto CNY 199 price tier = v1 1.946B x 1/2; weekly cap removed, only rolling 5h + monthly pool left; not an independent measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Pro $39 list price (previously domestic ¥199÷6.7787≈$29.36); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
+    },
+    {
+      "zh": "新增29.19亿（v2）：Max ¥699 接 Allegro ¥699 价位＝v1 58.38亿×1/2；取消周限额仅留5h+月池；非独立实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Max $99 标价（旧按国内 ¥699÷6.7787≈$103.12），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
+      "en": "New 2.919B (v2): Max CNY 699 takes the Allegro CNY 699 price tier = v1 5.838B x 1/2; weekly cap removed, only rolling 5h + monthly pool left; not an independent measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Max $99 list price (previously domestic ¥699÷6.7787≈$103.12); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
+    },
+    {
+      "zh": "官方新套餐页「Ultra为Max的2倍」+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json",
+      "en": "Official new-plan page ('Ultra is 2x of Max') + maintainer ruling v2 = v1 x 1/2; kimi-v2-plans-round1-2026-10-26.json"
+    },
+    {
+      "zh": "新增58.38亿（v2）：Ultra ¥1399 无 v1 同价对照，按官方 Agent 额度 28/14=2× Max 派生；数值恰同 v1 Allegro；非独立实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Ultra $199 标价（旧按国内 ¥1399÷6.7787≈$206.38），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
+      "en": "New 5.838B (v2): Ultra CNY 1399 has no same-price v1 tier, derived as 2x Max from the official Agent-credit ratio 28/14; the value happens to equal v1 Allegro; not an independent measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Ultra $199 list price (previously domestic ¥1399÷6.7787≈$206.38); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
+    },
+    {
+      "zh": "新增1.57亿（v2）：Plus ¥99 接 Moderato ¥99 价位＝v1 3.14亿×1/2；非独立实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Plus $19 标价（旧按国内 ¥99÷6.7787≈$14.60），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
+      "en": "New 157M (v2): Plus CNY 99 takes the Moderato CNY 99 price tier = v1 314M x 1/2; not an independent measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Plus $19 list price (previously domestic ¥99÷6.7787≈$14.60); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
+    },
+    {
+      "zh": "新增7.84亿（v2）：Pro ¥199 接 Allegretto ¥199 价位＝v1 15.68亿×1/2；非独立实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Pro $39 标价（旧按国内 ¥199÷6.7787≈$29.36），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
+      "en": "New 784M (v2): Pro CNY 199 takes the Allegretto CNY 199 price tier = v1 1.568B x 1/2; not an independent measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Pro $39 list price (previously domestic ¥199÷6.7787≈$29.36); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
+    },
+    {
+      "zh": "新增23.52亿（v2）：Max ¥699 接 Allegro ¥699 价位＝v1 47.04亿×1/2；非独立实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Max $99 标价（旧按国内 ¥699÷6.7787≈$103.12），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
+      "en": "New 2.352B (v2): Max CNY 699 takes the Allegro CNY 699 price tier = v1 4.704B x 1/2; not an independent measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Max $99 list price (previously domestic ¥699÷6.7787≈$103.12); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
+    },
+    {
+      "zh": "新增47.04亿（v2）：Ultra ¥1399 无 v1 同价对照，按官方 Agent 额度 28/14=2× Max 派生；数值恰同 v1 Allegro；非独立实测；同名档国内外并为一点：月费与单价统一按国际版 Kimi Ultra $199 标价（旧按国内 ¥1399÷6.7787≈$206.38），price/currency 仍记国内实付价；额度仍国内档口径，海外同名档绝对 token 未实测，并点仅作价位展示",
+      "en": "New 4.704B (v2): Ultra CNY 1399 has no same-price v1 tier, derived as 2x Max from the official Agent-credit ratio 28/14; the value happens to equal v1 Allegro; not an independent measurement; same-name domestic and overseas tiers merged into one point: monthly fee and unit price use the international Kimi Ultra $199 list price (previously domestic ¥1399÷6.7787≈$206.38); price/currency still record the actual domestic price paid; the allowance stays on the domestic-tier basis — the overseas same-name tier's absolute tokens are unmeasured; the merge is for price-tier display only"
     },
     {
       "zh": "docs.bigmodel.cn 官方周积分与三段积分系数；standard-token-mix-round1-2026-09-07.json",

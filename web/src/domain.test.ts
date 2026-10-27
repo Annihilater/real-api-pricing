@@ -664,7 +664,12 @@ test("Chart search AND-matches plan, channel and model fields and dedupes points
   const backward = searchMatches(gs, "199 kimi", "en");
   assert.deepEqual(
     forward.map((r) => r.point.id).sort(),
-    ["kimi_allegretto_cn::kimi-k2.7-code", "kimi_allegretto_cn::kimi-k3"],
+    [
+      "kimi_allegretto_cn::kimi-k2.7-code",
+      "kimi_allegretto_cn::kimi-k3",
+      "kimi_pro_cn::kimi-k2.7-code",
+      "kimi_pro_cn::kimi-k3",
+    ],
   );
   assert.deepEqual(
     backward.map((r) => r.point.id).sort(),
