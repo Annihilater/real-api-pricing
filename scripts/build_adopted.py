@@ -1412,7 +1412,7 @@ DATA_DATES = {
     ("cursor_ultra_fast", "grok-4.6"): ("2026-09-05", "sample"),
     ("cursor_pro", "grok-4.6"): ("2026-08-27", "sample"),
     ("cursor_ultra", "claude-opus-5.5"): ("2026-09-14~2026-10-05", "sample"),
-    ("kimi_allegretto_cn", "kimi-k3"): ("2026-07-25~2026-07-26", "sample"),
+    ("kimi_allegretto_cn", "kimi-k3"): ("2026-10-27", "sample"),
     ("kimi_allegretto_cn", "kimi-k2.7-code"): ("2026-08-20", "sample"),
     ("aliyun_coding_pro_cn", "qwen3.7-plus"): ("2026-07~2026-08", "sample"),
     ("minimax_token_plus_cn", "minimax-m3"): ("2026-06-01", "official"),
