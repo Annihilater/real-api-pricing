@@ -167,13 +167,13 @@
 <g class="point" data-billing="subscription" data-frontier="false" data-price="0.22321429" data-score="57.6224" data-x="454.934" data-y="271.985" transform="translate(454.934 271.985)"><title>Claude Opus 5.5 · Cursor Ultra (Other Models) · $0.22321/MTok · 57.6224 · mediumClaude Opus 5.5 (max with fallback) · Exact served-model reference; quota-measurement effort is unverified.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#FACC15" opacity=".68" stroke="#AA8B0E" stroke-width=".9"/>
 </g>
-<g class="point" data-billing="subscription" data-frontier="false" data-price="0.026878015" data-score="43.5938" data-x="750.778" data-y="396.919" transform="translate(750.778 396.919)"><title>Kimi K3 (v1) · Kimi Allegretto · $39 / CN ¥199 · $0.02688/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.02004111" data-score="43.5938" data-x="791.800" data-y="396.919" transform="translate(791.800 396.919)"><title>Kimi K3 (v1) · Kimi Allegretto · $39 / CN ¥199 · $0.02004/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
 </g>
-<g class="point" data-billing="subscription" data-frontier="false" data-price="0.065517241" data-score="43.5938" data-x="626.252" data-y="396.919" transform="translate(626.252 396.919)"><title>Kimi K3 (v1) · Kimi Moderato · $19 / CN ¥99 · $0.06552/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.048843188" data-score="43.5938" data-x="667.299" data-y="396.919" transform="translate(667.299 396.919)"><title>Kimi K3 (v1) · Kimi Moderato · $19 / CN ¥99 · $0.04884/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
 </g>
-<g class="point" data-billing="subscription" data-frontier="false" data-price="0.022742936" data-score="43.5938" data-x="774.125" data-y="396.919" transform="translate(774.125 396.919)"><title>Kimi K3 (v1) · Kimi Allegro · $99 / CN ¥699 · $0.02274/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.016957862" data-score="43.5938" data-x="815.147" data-y="396.919" transform="translate(815.147 396.919)"><title>Kimi K3 (v1) · Kimi Allegro · $99 / CN ¥699 · $0.01696/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
 </g>
 <g class="point" data-billing="subscription" data-frontier="false" data-price="0.024872449" data-score="25.8121" data-x="761.616" data-y="555.277" transform="translate(761.616 555.277)"><title>Kimi K2.7 Code (v1) · Kimi Allegretto · $39 / CN ¥199 · $0.02487/MTok · 25.8121 · mediumKimi K2.7 Code · Exact served-model reference; quota-measurement effort is unverified.</title>
@@ -188,16 +188,16 @@
 <g class="point" data-billing="subscription" data-frontier="false" data-price="0.021045918" data-score="25.8121" data-x="784.963" data-y="555.277" transform="translate(784.963 555.277)"><title>Kimi K2.7 Code (v1) · Kimi Allegro · $99 / CN ¥699 · $0.02105/MTok · 25.8121 · mediumKimi K2.7 Code · Exact served-model reference; quota-measurement effort is unverified.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
 </g>
-<g class="point" data-billing="subscription" data-frontier="false" data-price="0.13103448" data-score="43.5938" data-x="529.380" data-y="396.919" transform="translate(529.380 396.919)"><title>Kimi K3 (v2) · Kimi Plus · $19 / CN ¥99 · $0.13103/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.097435897" data-score="43.5938" data-x="570.785" data-y="396.919" transform="translate(570.785 396.919)"><title>Kimi K3 (v2) · Kimi Plus · $19 / CN ¥99 · $0.09744/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
 </g>
-<g class="point" data-billing="subscription" data-frontier="false" data-price="0.053793103" data-score="43.5938" data-x="653.808" data-y="396.919" transform="translate(653.808 396.919)"><title>Kimi K3 (v2) · Kimi Pro · $39 / CN ¥199 · $0.05379/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.04008222" data-score="43.5938" data-x="694.927" data-y="396.919" transform="translate(694.927 396.919)"><title>Kimi K3 (v2) · Kimi Pro · $39 / CN ¥199 · $0.04008/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
 </g>
-<g class="point" data-billing="subscription" data-frontier="false" data-price="0.045475425" data-score="43.5938" data-x="677.284" data-y="396.919" transform="translate(677.284 396.919)"><title>Kimi K3 (v2) · Kimi Max · $99 / CN ¥699 · $0.04548/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.033915725" data-score="43.5938" data-x="718.274" data-y="396.919" transform="translate(718.274 396.919)"><title>Kimi K3 (v2) · Kimi Max · $99 / CN ¥699 · $0.03392/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
 </g>
-<g class="point" data-billing="subscription" data-frontier="false" data-price="0.045715598" data-score="43.5938" data-x="676.548" data-y="396.919" transform="translate(676.548 396.919)"><title>Kimi K3 (v2) · Kimi Ultra · $199 / CN ¥1399 · $0.04572/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
+<g class="point" data-billing="subscription" data-frontier="false" data-price="0.034087016" data-score="43.5938" data-x="717.570" data-y="396.919" transform="translate(717.570 396.919)"><title>Kimi K3 (v2) · Kimi Ultra · $199 / CN ¥1399 · $0.03409/MTok · 43.5938 · mediumKimi K3 (max) · Exact served-model reference; quota-measurement effort is unverified.</title>
 <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.8" fill="#0EA5E9" opacity=".68"/>
 </g>
 <g class="point" data-billing="subscription" data-frontier="false" data-price="0.12101911" data-score="25.8121" data-x="540.492" data-y="555.277" transform="translate(540.492 555.277)"><title>Kimi K2.7 Code (v2) · Kimi Plus · $19 / CN ¥99 · $0.12102/MTok · 25.8121 · mediumKimi K2.7 Code · Exact served-model reference; quota-measurement effort is unverified.</title>

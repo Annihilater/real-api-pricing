@@ -155,8 +155,9 @@ GOOGLE_PRO_ISSUE55_SEGMENT = {"cache_read": 78_320_000, "input": 14_950_000, "ou
 GOOGLE_PRO_ARGON_SEGMENT = {"cache_read": 955_000, "input": 109_000, "output": 75_100}
 GOOGLE_PRO_ARGON_WEEKLY_PP = 15.1
 GEMINI_ARGON_LIST = (0.10, 2.0, 10.0)  # Gemini 4 Argon 引入价至 2026-11-30（ai.google.dev pricing；输出含 thinking，缓存仅隐式读价），其后 $0.2/$4/$20 须复核
-KIMI_199_USED_TOKENS = 243_739_068
-KIMI_199_USED_FRACTION = 0.84
+KIMI_199_USED_TOKENS = 37_362_656
+KIMI_199_MONTHLY_FRACTION = 0.0192
+KIMI_199_WEEKLY_FRACTION = 0.0961
 KIMI_MONTHLY_TO_WEEKLY = 5
 KIMI_K27_199_USED_TOKENS = 11_913_113
 KIMI_K27_199_MONTHLY_USED_FRACTION = 0.0076
@@ -512,9 +513,10 @@ def google_ai_pro_argon_monthly_yi() -> float:
 
 
 def kimi_199_monthly_yi() -> float:
+    # 2026-10-27 换基：Allegretto(赠送)账号 k3.1-pro 单日 37.36M ÷ 控制台月总1.92% 直推月池；
+    # 同窗 7天9.61% 得周池3.89亿，月/周=5.005 与月池=周池×5 吻合（kimi-allegretto-quota-round2-2026-10-27.json）
     return round(
-        KIMI_199_USED_TOKENS / KIMI_199_USED_FRACTION
-        * KIMI_MONTHLY_TO_WEEKLY / YI,
+        KIMI_199_USED_TOKENS / KIMI_199_MONTHLY_FRACTION / YI,
         2,
     )
 
@@ -1159,10 +1161,10 @@ SUBS = [
     ("cursor_ultra", "Cursor Ultra (Other Models)", 200, "USD", "claude-opus-5.5", cursor_ultra_opus55_monthly_yi(), "medium", "X @xuanwo 推文（2026-10-05，维护者转交截图）：Cursor Ultra 账期内 Other Models 用量全程 claude-opus-5-5-high；usage-events CSV 导出 9月14日–10月5日共 176 条 Opus 记录（集中北京时间10月2日22:35–5日14:14）；cursor-opus55-community-round1-2026-10-05.json", f"新增{cursor_ultra_opus55_monthly_yi():g}亿（Other Models 池首个实测）：段 worth ${cursor_ultra_opus55_segment_worth_usd():.2f}（读748.78M×$0.2＋写24.36M×$5(5m)＋入9.4K×$4＋出5.19M×$20，hit 96.85%）＝账期 Other Models 全部用量 ÷ Anthropic档混合价${blended_anthropic(0.2,5.0,20.0):.3f}/MTok；raw 口径 7.78亿留作对照；cache写按1h $8 敏感性 worth $448.54（10.71亿）不采；worth 与社区口径 Ultra Other Models 池$400同量级（93.9%；CellCog曾示$500），视为月池基本用尽——CSV 无账期边界/%字段故按整份导出统计，若未用尽本值偏保守；与 Cursor Models 池（grok-4.6 77.37亿）为两个独立月池不联动；单一社区源、面板%未截图 → medium；effort 均 high 仅影响速率"),
     # Kimi —— 月池是周池的5倍（不是项目通用4周）；199档本机ccusage反推，其余按官网1x/4x/20x/60x
     #   同名档国内外并点：price_usd 统一按国际版标价（KIMI_INTL），¥价为国内实付；Andante ¥49 无海外同名档
-    ("kimi_allegretto_cn", "Kimi 会员 199", 199, "CNY", "kimi-k3", kimi_199_monthly_yi(), "medium", f"本机ccusage {KIMI_199_USED_TOKENS}/{KIMI_199_USED_FRACTION:.0%}反推周额度×Kimi月池{KIMI_MONTHLY_TO_WEEKLY:g}倍；kimi-adoption-round6-2026-09-08.json", "旧11.61亿→14.51亿：确认Kimi月池=周池×5，旧值误套项目通用4周；样本以k3-256k为主且含kimi-for-coding，非纯K3 1M实测；SWE1.7短时面板的模型/统计窗口不同，未替换基准；ACP14.28为旧模型旁证，不直接采用；未折算：ccusage 只存周合计，无分项"),
-    ("kimi_moderato_cn", "Kimi 会员 99", 99, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 4 / 20, 2), "medium", "199档×官方4/20；kimi-adoption-round6-2026-09-08.json", "旧2.32亿→2.90亿：随199档改用周池×5；继承K3-256K为主的混合负载估算，不是K3 1M纯模型实测"),
+    ("kimi_allegretto_cn", "Kimi 会员 199", 199, "CNY", "kimi-k3", kimi_199_monthly_yi(), "medium", f"维护者实测：Allegretto(赠送) k3.1-pro 单日 {KIMI_199_USED_TOKENS} ÷ 控制台月总{KIMI_199_MONTHLY_FRACTION:.2%} 直推月池；kimi-allegretto-quota-round2-2026-10-27.json", "19.46亿（2026-10-27换基）：k3.1-pro 单日37.36M ÷ 月总1.92% 直推；同窗7天9.61%得周池3.89亿、月/周=5.005吻合月池=周池×5；替换旧基14.51亿（2026-07 k3-256k混合ccusage 243.74M/84%反推）——模型等效不同（k3.1-pro vs k3-256k混合），非纯池变化；未折算：面板只存合计"),
+    ("kimi_moderato_cn", "Kimi 会员 99", 99, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 4 / 20, 2), "medium", "199档×官方4/20；kimi-allegretto-quota-round2-2026-10-27.json", "旧2.90亿→3.89亿：随199档换基（k3.1-pro实测）；继承模型等效，不是K3 1M纯模型实测"),
     ("kimi_andante_cn", "Kimi 会员 49", 49, "CNY", "kimi-k3", round(kimi_199_monthly_yi() / 20, 2), "medium", "199档×官方1/20", ""),
-    ("kimi_allegro_cn", "Kimi 会员 699", 699, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 60 / 20, 2), "medium", "199档×官方60/20；kimi-adoption-round6-2026-09-08.json", "旧34.83亿→43.53亿：随199档改用周池×5；继承K3-256K为主的混合负载估算，不是K3 1M纯模型实测"),
+    ("kimi_allegro_cn", "Kimi 会员 699", 699, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 60 / 20, 2), "medium", "199档×官方60/20；kimi-allegretto-quota-round2-2026-10-27.json", "旧43.53亿→58.38亿：随199档换基（k3.1-pro实测）；继承模型等效，不是K3 1M纯模型实测"),
     # K2.7 Standard —— ¥199纯模型面板直接按月百分比反推；其余档按官方Code credits 1x/4x/20x/60x
     ("kimi_allegretto_cn", "Kimi 会员 199", 199, "CNY", "kimi-k2.7-code", kimi_k27_199_monthly_yi(), "medium", f"V2EX纯K2.7面板 {KIMI_K27_199_USED_TOKENS}/{KIMI_K27_199_MONTHLY_USED_FRACTION:.2%}=15.68亿；kimi-k27-round7-2026-09-08.json；kimi-k27-adoption-round8-2026-09-08.json", "新增K2.7 Standard独立点：采用直接月%反推15.68亿，不与较弱的699档混合样本取中点；可信范围约15.6~16.7亿。单一纯模型账号证据high，但跨账号/时期采用降为medium；未折算：只有 cache 读＋合计，缺 input/output 分项"),
     ("kimi_moderato_cn", "Kimi 会员 99", 99, "CNY", "kimi-k2.7-code", round(kimi_k27_199_monthly_yi() * 4 / 20, 2), "medium", "199档×官方4/20；kimi-k27-adoption-round8-2026-09-08.json", "新增3.14亿：继承199档15.68亿与官方Code credits倍率；非独立实测"),
@@ -1173,10 +1175,10 @@ SUBS = [
     #   取消周限额、只留滚动5h+月度共享池。2026-10-26 维护者裁定：新套餐额度 = 同价旧档 ×1/2。
     #   Go 档无 Kimi Code（官方「Go 不包含 Kimi Code」），不入点；Ultra 无 v1 对照，按官方 28/14=2× Max 派生。
     #   证据：kimi-v2-plans-round1-2026-10-26.json
-    ("kimi_plus_cn", "Kimi Plus 99", 99, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 4 / 20 / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增1.45亿（v2）：Plus ¥99 接 Moderato ¥99 价位＝v1 2.90亿×1/2；取消周限额仅留5h+月池；非独立实测"),
-    ("kimi_pro_cn", "Kimi Pro 199", 199, "CNY", "kimi-k3", round(kimi_199_monthly_yi() / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增7.25亿（v2）：Pro ¥199 接 Allegretto ¥199 价位＝v1 14.51亿×1/2；取消周限额仅留5h+月池；非独立实测"),
-    ("kimi_max_cn", "Kimi Max 699", 699, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 60 / 20 / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增21.77亿（v2）：Max ¥699 接 Allegro ¥699 价位＝v1 43.53亿×1/2；取消周限额仅留5h+月池；非独立实测"),
-    ("kimi_ultra_cn", "Kimi Ultra 1399", 1399, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 60 / 20 / 2 * 2, 2), "medium", "官方新套餐页「Ultra为Max的2倍」+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增43.53亿（v2）：Ultra ¥1399 无 v1 同价对照，按官方 Agent 额度 28/14=2× Max 派生；数值恰同 v1 Allegro；非独立实测"),
+    ("kimi_plus_cn", "Kimi Plus 99", 99, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 4 / 20 / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增1.95亿（v2）：Plus ¥99 接 Moderato ¥99 价位＝v1 3.89亿×1/2；取消周限额仅留5h+月池；非独立实测"),
+    ("kimi_pro_cn", "Kimi Pro 199", 199, "CNY", "kimi-k3", round(kimi_199_monthly_yi() / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增9.73亿（v2）：Pro ¥199 接 Allegretto ¥199 价位＝v1 19.46亿×1/2；取消周限额仅留5h+月池；非独立实测"),
+    ("kimi_max_cn", "Kimi Max 699", 699, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 60 / 20 / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增29.19亿（v2）：Max ¥699 接 Allegro ¥699 价位＝v1 58.38亿×1/2；取消周限额仅留5h+月池；非独立实测"),
+    ("kimi_ultra_cn", "Kimi Ultra 1399", 1399, "CNY", "kimi-k3", round(kimi_199_monthly_yi() * 60 / 20 / 2 * 2, 2), "medium", "官方新套餐页「Ultra为Max的2倍」+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增58.38亿（v2）：Ultra ¥1399 无 v1 同价对照，按官方 Agent 额度 28/14=2× Max 派生；数值恰同 v1 Allegro；非独立实测"),
     ("kimi_plus_cn", "Kimi Plus 99", 99, "CNY", "kimi-k2.7-code", round(kimi_k27_199_monthly_yi() * 4 / 20 / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增1.57亿（v2）：Plus ¥99 接 Moderato ¥99 价位＝v1 3.14亿×1/2；非独立实测"),
     ("kimi_pro_cn", "Kimi Pro 199", 199, "CNY", "kimi-k2.7-code", round(kimi_k27_199_monthly_yi() / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增7.84亿（v2）：Pro ¥199 接 Allegretto ¥199 价位＝v1 15.68亿×1/2；非独立实测"),
     ("kimi_max_cn", "Kimi Max 699", 699, "CNY", "kimi-k2.7-code", round(kimi_k27_199_monthly_yi() * 60 / 20 / 2, 2), "medium", "官方新套餐页+维护者裁定v2=v1×1/2；kimi-v2-plans-round1-2026-10-26.json", "新增23.52亿（v2）：Max ¥699 接 Allegro ¥699 价位＝v1 47.04亿×1/2；非独立实测"),

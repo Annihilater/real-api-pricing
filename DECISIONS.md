@@ -3,6 +3,12 @@
 本地 `AGENTS.md`（不入库）只放 Agent 工作流程；口径与规则见 [`CONVENTIONS.md`](CONVENTIONS.md)；本文件记录每条采用值的取舍（旧值 → 新值 → 依据 → 未采来源）。
 最权威的表述仍在 `scripts/build_adopted.py` 的 `decision_note` 和 `data/research/` 证据文件里；本文件是按时间的索引摘要。改数只能改 `build_adopted.py`，改完在这里同步记一笔。
 
+## 2026-10-27 · Kimi 会员 199（Allegretto）k3 换基 14.51 → 19.46 亿（维护者实测）
+
+- **采用**：`kimi_allegretto_cn × kimi-k3` = **19.46 亿/月 medium**。维护者 Allegretto（赠送）账号截图：k3.1-pro 单日用量 37,362,656 raw token ↔ 控制台「本月用量 1.92%」直推月池 19.46 亿；同窗「7天用量 9.61%」反推周池 3.89 亿，月/周 = 5.005 与月池=周池×5 吻合，同一笔消耗两口径互证。替换旧基 14.51 亿（2026-07 ccusage 243.74M/84% k3-256k 混合负载反推）——两次样本的模型等效不同（k3.1-pro vs k3-256k 混合），差距是模型换率而非纯池变化。k2.7-code 15.68 亿为独立纯模型面板实测，不随本次换基。
+- **级联**：`kimi_moderato_cn × kimi-k3` 2.90→3.89 亿（×4/20）；`kimi_allegro_cn × kimi-k3` 43.53→58.38 亿（×60/20）；v2 k3 行随基更新：Plus 1.45→1.95 亿、Pro 7.25→9.73 亿、Max 21.77→29.19 亿、Ultra 43.53→58.38 亿。v2 k2.7-code 行不变。
+- 证据：`data/research/kimi-allegretto-quota-round2-2026-10-27.json`（含 5h 图、7 天/月总百分位、排除的 52.59 亿全模型外推变体）。
+
 ## 2026-10-26 · Kimi 新套餐（v2）额度 = 同价旧档（v1）× 1/2（裁定）
 
 - **采用**：新增 4 档 8 行，全部 derived·medium——`kimi_plus_cn`「Kimi Plus 99」k3 1.45 亿 / k2.7-code 1.57 亿；`kimi_pro_cn`「Kimi Pro 199」k3 7.25 亿 / k2.7-code 7.84 亿；`kimi_max_cn`「Kimi Max 699」k3 21.77 亿 / k2.7-code 23.52 亿；`kimi_ultra_cn`「Kimi Ultra 1399」k3 43.53 亿 / k2.7-code 47.04 亿。依据官方 2026-10-19 新套餐页：Go ¥49 / Plus ¥99 / Pro ¥199 / Max ¥699 / Ultra ¥1399（国际版 $19/$39/$99/$199），与旧音乐名档同价一一对应（Andante→Go、Moderato→Plus、Allegretto→Pro、Allegro→Max、Vivace→Ultra），取消周限额、只留滚动 5h + 月度共享池。2026-10-26 维护者裁定：新套餐额度 = 同价旧档 ×1/2。Ultra 无 v1 对照，按官方「Ultra Agent 额度为 Max 的 2 倍」（28× vs 14×）= Max×2 派生；Go 无 Kimi Code 不入点。新套餐行 `plan_gen=v2`（维护者口径 v1=旧音乐名档、v2=新名档），国际价按 KIMI_INTL 并点。
